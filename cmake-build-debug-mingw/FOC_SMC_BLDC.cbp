@@ -39,6 +39,15 @@
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Hardware"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Signal"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Motor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -75,6 +84,15 @@
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Hardware"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Signal"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Motor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -176,6 +194,42 @@
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/usart.c">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/BLDCMotor.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/BLDCMotor.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Motor/BLDCDriver.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Motor/FOCMotor.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Motor/FOCMotor.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/CurrentSense.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/CurrentSense.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Sensor.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Sensor.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/hardware_api.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
@@ -198,6 +252,9 @@
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal/io_signal_base.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/SimpleFOC.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/defaults.h">
@@ -449,6 +506,12 @@
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/spi3.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print/print_base.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print/print_base.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
@@ -491,72 +554,6 @@
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/STM32F405RGTx_FLASH.ld">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/BLDCMotor.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/BLDCMotor.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/CurrentSense.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/CurrentSense.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Encoder.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Encoder.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/FOCMotor.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/FOCMotor.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/MagneticSensor.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/MagneticSensorI2C.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/MagneticSensorSPI.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Sensor.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Sensor.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowpass_filter.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowpass_filter.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowsideCurrentSense.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowsideCurrentSense.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/motor_base.cpp">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/motor_base.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/pid.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/pid.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/MyProject.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/common_inc.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
@@ -570,9 +567,6 @@
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/protocols/interface_uart.cpp">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/user.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/startup/startup_stm32f405xx.s">

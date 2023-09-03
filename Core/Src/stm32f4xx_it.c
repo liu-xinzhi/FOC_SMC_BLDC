@@ -22,7 +22,6 @@
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "MyProject.h"
 
 /* USER CODE END Includes */
 
@@ -43,7 +42,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-extern MOTORController M0,M1;
 
 //tim1配置为中央对齐模式，一个周期update两次，每(2+1)次触发一次，所以进入中断的频率为16KHz，
 
@@ -257,8 +255,8 @@ void ADC_IRQHandler(void)
         ADC3->SR = ~ADC_SR_JEOC;
         if((TIM1->CR1 & TIM_CR1_DIR)==0)   //=0为递增计数,上臂为低下臂为高,此时采样，进入频率8KHz
         {
-            M0.phB = (float)ADC2->JDR1 *3.3f/4096;
-            M0.phC = (float)ADC3->JDR1 *3.3f/4096;
+//            M0.phB = (float)ADC2->JDR1 *3.3f/4096;
+//            M0.phC = (float)ADC3->JDR1 *3.3f/4096;
         }
     }
     if(((ADC2->SR & ADC_SR_EOC) == ADC_SR_EOC)&&((ADC3->SR & ADC_SR_EOC) == ADC_SR_EOC))
@@ -267,8 +265,8 @@ void ADC_IRQHandler(void)
         ADC3->SR = ~ADC_SR_EOC;
         if((TIM8->CR1 & TIM_CR1_DIR)==0)   //=0为递增计数,上臂为低下臂为高,此时采样，进入频率8KHz
         {
-            M1.phB = (float)ADC2->DR *3.3f/4096;
-            M1.phC = (float)ADC3->DR *3.3f/4096;
+//            M1.phB = (float)ADC2->DR *3.3f/4096;
+//            M1.phC = (float)ADC3->DR *3.3f/4096;
         }
     }
 

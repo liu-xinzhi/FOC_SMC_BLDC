@@ -90,28 +90,25 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj: \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\xlocale.h \
  d:\freertos\foc_smc_bldc\ctrl\utils\foc_utils.h \
  d:\freertos\foc_smc_bldc\platform\utils\st_hardware.h \
- D:\FreeRTOS\FOC_SMC_BLDC\UserApp\MyProject.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\stdlib.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cstdlib \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\stdlib.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\stdlib.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\alloca.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\std_abs.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/usart.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor/BLDCDriver.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor/FOCMotor.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense/CurrentSense.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/foc_utils.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\Print/print_base.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cstring \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\string.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\strings.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\string.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Hardware/i2c_software.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Hardware/spi3.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/adc.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\math.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cmath \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\cpp_type_traits.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\ext\type_traits.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\math.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\specfun.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\string \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\stringfwd.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\memoryfwd.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\char_traits.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\stl_algobase.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\functexcept.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\exception_defines.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\cpp_type_traits.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\ext\type_traits.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\ext\numeric_traits.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\stl_pair.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\move.h \
@@ -124,28 +121,58 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj: \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\ptr_traits.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\debug\debug.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\predefined_ops.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\postypes.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cwchar \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\wchar.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\allocator.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7-m\nofp\bits\c++allocator.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\ext\new_allocator.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\new \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\exception \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\exception.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\exception_ptr.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\cxxabi_init_exception.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\typeinfo \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\hash_bytes.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\nested_exception.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\localefwd.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7-m\nofp\bits\c++locale.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\clocale \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\locale.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\iosfwd \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cctype \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\ctype.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\ostream_insert.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\cxxabi_forced.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\stl_function.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\backward\binders.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\range_access.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\initializer_list \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\basic_string.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\ext\atomicity.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7-m\nofp\bits\gthr.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7-m\nofp\bits\gthr-default.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7-m\nofp\bits\atomic_word.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\ext\alloc_traits.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\alloc_traits.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\string_view \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\limits \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\gamma.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\special_function_util.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\bessel_function.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\beta_function.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\ell_integral.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\exp_integral.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\hypergeometric.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\legendre_function.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\modified_bessel_func.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\poly_hermite.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\poly_laguerre.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\riemann_zeta.tcc \
- D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/spi.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/MagneticSensor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/Encoder.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/Sensor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\UserApp/user.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/BLDCMotor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/FOCMotor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/lowpass_filter.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/pid.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/CurrentSense.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/lowsideCurrentSense.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/usart.h
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\functional_hash.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\string_view.tcc \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\ext\string_conversions.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cstdlib \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\stdlib.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\stdlib.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\alloca.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\std_abs.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cerrno \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\errno.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\errno.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\bits\basic_string.tcc \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils/time_utils.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/defaults.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/pid.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/foc_utils.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/lowpass_filter.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder/encoder_base.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/adc.h

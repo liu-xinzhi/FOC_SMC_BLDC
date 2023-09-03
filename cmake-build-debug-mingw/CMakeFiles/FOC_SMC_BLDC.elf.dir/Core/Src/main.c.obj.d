@@ -65,37 +65,4 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/main.c.obj: \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\cdefs.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\xlocale.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\strings.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\string.h \
- D:\FreeRTOS\FOC_SMC_BLDC\UserApp/MyProject.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\stdlib.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\stdlib.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\alloca.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\stdio.h \
- c:\progra~2\gnutoo~1\92019-~1\lib\gcc\arm-none-eabi\9.2.1\include\stdarg.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\types.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\endian.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\_endian.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\select.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_sigset.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_timeval.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\timespec.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_timespec.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_pthreadtypes.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\sched.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\types.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\stdio.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Hardware/i2c_software.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Hardware/spi3.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\math.h \
- d:\freertos\foc_smc_bldc\ctrl\utils\foc_utils.h \
- d:\freertos\foc_smc_bldc\platform\utils\time_utils.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/MagneticSensor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/Encoder.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/Sensor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\UserApp/user.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/BLDCMotor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/FOCMotor.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/lowpass_filter.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/pid.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/CurrentSense.h \
- D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC/lowsideCurrentSense.h
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\string.h

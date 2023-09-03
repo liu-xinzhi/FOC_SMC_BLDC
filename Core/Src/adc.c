@@ -21,7 +21,6 @@
 #include "adc.h"
 
 /* USER CODE BEGIN 0 */
-#include "MyProject.h"
 
 uint16_t adcData[2];
 uint16_t  adc1_value[32];

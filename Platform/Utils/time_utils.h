@@ -4,6 +4,7 @@
 #include "stdint-gcc.h"
 
 void delay(uint32_t ms);
+void _delay(uint32_t _ms);
 void delayMicroseconds(uint32_t us);
 uint64_t micros();
 uint32_t millis();

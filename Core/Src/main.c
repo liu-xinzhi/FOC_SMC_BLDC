@@ -30,9 +30,6 @@
 /* USER CODE BEGIN Includes */
 #include "common_inc.h"
 #include <string.h>
-#include "MyProject.h"
-#include "user.h"
-
 
 /* USER CODE END Includes */
 
@@ -169,70 +166,70 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-void commander_run(void)
-{
-    if(rcv2_flag==1)
-    {
-        rcv2_flag=0;
-        switch(rcv2_buff[0])
-        {
-            case 'H':
-            {
-                printf("Hello World!\r\n");
-                break;
-            }
-            case 'A':   //A6.28   设置M0的目标值
-                M0.target=atof((const char *)(rcv2_buff+1));
-                printf("A=%.2f\r\n",M0.target);
-                break;
-            case 'B':   //B6.28   设置M1的目标值
-                M1.target=atof((const char *)(rcv2_buff+1));
-                printf(snd2_buff,"B=%.2f\r\n",M1.target);
-                break;
-
-            case 'M':   //设置M0
-                switch(rcv2_buff[1])
-                {
-                    case 'P':   //MP0.5  设置速度环的P参数
-                        M0.PID_vel.P=atof((const char *)(rcv2_buff+2));
-                        printf("P=%.2f\r\n",M0.PID_vel.P);
-                        break;
-                    case 'I':   //MI0.2  设置速度环的I参数
-                        M0.PID_vel.I=atof((const char *)(rcv2_buff+2));
-                        printf(snd2_buff,"I=%.2f\r\n",M0.PID_vel.I);
-                        break;
-                    case 'V':   //MV  读实时速度
-                        printf(snd2_buff,"Vel=%.2f\r\n",M0.shaft_velocity);
-                        break;
-                    case 'A':   //MA  读绝对角度
-                        printf(snd2_buff,"Ang=%.2f\r\n",M0.shaft_angle);
-                        break;
-                }
-                break;
-
-            case 'N':   //设置M1
-                switch(rcv2_buff[1])
-                {
-                    case 'P':   //NP0.5  设置速度环的P参数
-                        M1.PID_vel.P=atof((const char *)(rcv2_buff+2));
-                        printf(snd2_buff,"P=%.2f\r\n",M1.PID_vel.P);
-                        break;
-                    case 'I':   //NI0.2  设置速度环的I参数
-                        M1.PID_vel.I=atof((const char *)(rcv2_buff+2));
-                        printf(snd2_buff,"I=%.2f\r\n",M1.PID_vel.I);
-                        break;
-                    case 'V':   //NV  读实时速度
-                        printf(snd2_buff,"Vel=%.2f\r\n",M1.shaft_velocity);
-                        break;
-                    case 'A':   //NA  读绝对角度
-                        printf(snd2_buff,"Ang=%.2f\r\n",M1.shaft_angle);
-                        break;
-                }
-                break;
-        }
-        memset(rcv2_buff,0,16);  //USART2_BUFFER_SIZE //清空接收数组,长度覆盖接收的字节数即可
-    }
-}
+//void commander_run(void)
+//{
+//    if(rcv2_flag==1)
+//    {
+//        rcv2_flag=0;
+//        switch(rcv2_buff[0])
+//        {
+//            case 'H':
+//            {
+//                printf("Hello World!\r\n");
+//                break;
+//            }
+//            case 'A':   //A6.28   设置M0的目标值
+//                M0.target=atof((const char *)(rcv2_buff+1));
+//                printf("A=%.2f\r\n",M0.target);
+//                break;
+//            case 'B':   //B6.28   设置M1的目标值
+//                M1.target=atof((const char *)(rcv2_buff+1));
+//                printf(snd2_buff,"B=%.2f\r\n",M1.target);
+//                break;
+//
+//            case 'M':   //设置M0
+//                switch(rcv2_buff[1])
+//                {
+//                    case 'P':   //MP0.5  设置速度环的P参数
+//                        M0.PID_vel.P=atof((const char *)(rcv2_buff+2));
+//                        printf("P=%.2f\r\n",M0.PID_vel.P);
+//                        break;
+//                    case 'I':   //MI0.2  设置速度环的I参数
+//                        M0.PID_vel.I=atof((const char *)(rcv2_buff+2));
+//                        printf(snd2_buff,"I=%.2f\r\n",M0.PID_vel.I);
+//                        break;
+//                    case 'V':   //MV  读实时速度
+//                        printf(snd2_buff,"Vel=%.2f\r\n",M0.shaft_velocity);
+//                        break;
+//                    case 'A':   //MA  读绝对角度
+//                        printf(snd2_buff,"Ang=%.2f\r\n",M0.shaft_angle);
+//                        break;
+//                }
+//                break;
+//
+//            case 'N':   //设置M1
+//                switch(rcv2_buff[1])
+//                {
+//                    case 'P':   //NP0.5  设置速度环的P参数
+//                        M1.PID_vel.P=atof((const char *)(rcv2_buff+2));
+//                        printf(snd2_buff,"P=%.2f\r\n",M1.PID_vel.P);
+//                        break;
+//                    case 'I':   //NI0.2  设置速度环的I参数
+//                        M1.PID_vel.I=atof((const char *)(rcv2_buff+2));
+//                        printf(snd2_buff,"I=%.2f\r\n",M1.PID_vel.I);
+//                        break;
+//                    case 'V':   //NV  读实时速度
+//                        printf(snd2_buff,"Vel=%.2f\r\n",M1.shaft_velocity);
+//                        break;
+//                    case 'A':   //NA  读绝对角度
+//                        printf(snd2_buff,"Ang=%.2f\r\n",M1.shaft_angle);
+//                        break;
+//                }
+//                break;
+//        }
+//        memset(rcv2_buff,0,16);  //USART2_BUFFER_SIZE //清空接收数组,长度覆盖接收的字节数即可
+//    }
+//}
 
 /* USER CODE END 4 */
 

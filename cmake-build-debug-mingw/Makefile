@@ -416,6 +416,126 @@ Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
 
+Ctrl/BLDCMotor.obj: Ctrl/BLDCMotor.cpp.obj
+.PHONY : Ctrl/BLDCMotor.obj
+
+# target to build an object file
+Ctrl/BLDCMotor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj
+.PHONY : Ctrl/BLDCMotor.cpp.obj
+
+Ctrl/BLDCMotor.i: Ctrl/BLDCMotor.cpp.i
+.PHONY : Ctrl/BLDCMotor.i
+
+# target to preprocess a source file
+Ctrl/BLDCMotor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.i
+.PHONY : Ctrl/BLDCMotor.cpp.i
+
+Ctrl/BLDCMotor.s: Ctrl/BLDCMotor.cpp.s
+.PHONY : Ctrl/BLDCMotor.s
+
+# target to generate assembly for a file
+Ctrl/BLDCMotor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.s
+.PHONY : Ctrl/BLDCMotor.cpp.s
+
+Ctrl/Motor/FOCMotor.obj: Ctrl/Motor/FOCMotor.cpp.obj
+.PHONY : Ctrl/Motor/FOCMotor.obj
+
+# target to build an object file
+Ctrl/Motor/FOCMotor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj
+.PHONY : Ctrl/Motor/FOCMotor.cpp.obj
+
+Ctrl/Motor/FOCMotor.i: Ctrl/Motor/FOCMotor.cpp.i
+.PHONY : Ctrl/Motor/FOCMotor.i
+
+# target to preprocess a source file
+Ctrl/Motor/FOCMotor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.i
+.PHONY : Ctrl/Motor/FOCMotor.cpp.i
+
+Ctrl/Motor/FOCMotor.s: Ctrl/Motor/FOCMotor.cpp.s
+.PHONY : Ctrl/Motor/FOCMotor.s
+
+# target to generate assembly for a file
+Ctrl/Motor/FOCMotor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.s
+.PHONY : Ctrl/Motor/FOCMotor.cpp.s
+
+Ctrl/Sensor/CurrentSense/CurrentSense.obj: Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj
+.PHONY : Ctrl/Sensor/CurrentSense/CurrentSense.obj
+
+# target to build an object file
+Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj
+.PHONY : Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj
+
+Ctrl/Sensor/CurrentSense/CurrentSense.i: Ctrl/Sensor/CurrentSense/CurrentSense.cpp.i
+.PHONY : Ctrl/Sensor/CurrentSense/CurrentSense.i
+
+# target to preprocess a source file
+Ctrl/Sensor/CurrentSense/CurrentSense.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.i
+.PHONY : Ctrl/Sensor/CurrentSense/CurrentSense.cpp.i
+
+Ctrl/Sensor/CurrentSense/CurrentSense.s: Ctrl/Sensor/CurrentSense/CurrentSense.cpp.s
+.PHONY : Ctrl/Sensor/CurrentSense/CurrentSense.s
+
+# target to generate assembly for a file
+Ctrl/Sensor/CurrentSense/CurrentSense.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.s
+.PHONY : Ctrl/Sensor/CurrentSense/CurrentSense.cpp.s
+
+Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.obj: Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj
+.PHONY : Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.obj
+
+# target to build an object file
+Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj
+.PHONY : Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj
+
+Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.i: Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.i
+.PHONY : Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.i
+
+# target to preprocess a source file
+Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.i
+.PHONY : Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.i
+
+Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.s: Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s
+.PHONY : Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.s
+
+# target to generate assembly for a file
+Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s
+.PHONY : Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s
+
+Ctrl/Sensor/CurrentSense/Sensor.obj: Ctrl/Sensor/CurrentSense/Sensor.cpp.obj
+.PHONY : Ctrl/Sensor/CurrentSense/Sensor.obj
+
+# target to build an object file
+Ctrl/Sensor/CurrentSense/Sensor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj
+.PHONY : Ctrl/Sensor/CurrentSense/Sensor.cpp.obj
+
+Ctrl/Sensor/CurrentSense/Sensor.i: Ctrl/Sensor/CurrentSense/Sensor.cpp.i
+.PHONY : Ctrl/Sensor/CurrentSense/Sensor.i
+
+# target to preprocess a source file
+Ctrl/Sensor/CurrentSense/Sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.i
+.PHONY : Ctrl/Sensor/CurrentSense/Sensor.cpp.i
+
+Ctrl/Sensor/CurrentSense/Sensor.s: Ctrl/Sensor/CurrentSense/Sensor.cpp.s
+.PHONY : Ctrl/Sensor/CurrentSense/Sensor.s
+
+# target to generate assembly for a file
+Ctrl/Sensor/CurrentSense/Sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.s
+.PHONY : Ctrl/Sensor/CurrentSense/Sensor.cpp.s
+
 Ctrl/Sensor/Encoder/Instances/encoder_as5047.obj: Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj
 .PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5047.obj
 
@@ -1136,6 +1256,30 @@ Hardware/spi3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.s
 .PHONY : Hardware/spi3.c.s
 
+Platform/Print/print_base.obj: Platform/Print/print_base.cpp.obj
+.PHONY : Platform/Print/print_base.obj
+
+# target to build an object file
+Platform/Print/print_base.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj
+.PHONY : Platform/Print/print_base.cpp.obj
+
+Platform/Print/print_base.i: Platform/Print/print_base.cpp.i
+.PHONY : Platform/Print/print_base.i
+
+# target to preprocess a source file
+Platform/Print/print_base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.i
+.PHONY : Platform/Print/print_base.cpp.i
+
+Platform/Print/print_base.s: Platform/Print/print_base.cpp.s
+.PHONY : Platform/Print/print_base.s
+
+# target to generate assembly for a file
+Platform/Print/print_base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.s
+.PHONY : Platform/Print/print_base.cpp.s
+
 Platform/Sensor/Encoder/encoder_as5047_stm32.obj: Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj
 .PHONY : Platform/Sensor/Encoder/encoder_as5047_stm32.obj
 
@@ -1280,270 +1424,6 @@ Platform/Utils/time_utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.s
 .PHONY : Platform/Utils/time_utils.cpp.s
 
-SimpleFOC/BLDCMotor.obj: SimpleFOC/BLDCMotor.c.obj
-.PHONY : SimpleFOC/BLDCMotor.obj
-
-# target to build an object file
-SimpleFOC/BLDCMotor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj
-.PHONY : SimpleFOC/BLDCMotor.c.obj
-
-SimpleFOC/BLDCMotor.i: SimpleFOC/BLDCMotor.c.i
-.PHONY : SimpleFOC/BLDCMotor.i
-
-# target to preprocess a source file
-SimpleFOC/BLDCMotor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.i
-.PHONY : SimpleFOC/BLDCMotor.c.i
-
-SimpleFOC/BLDCMotor.s: SimpleFOC/BLDCMotor.c.s
-.PHONY : SimpleFOC/BLDCMotor.s
-
-# target to generate assembly for a file
-SimpleFOC/BLDCMotor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.s
-.PHONY : SimpleFOC/BLDCMotor.c.s
-
-SimpleFOC/CurrentSense.obj: SimpleFOC/CurrentSense.c.obj
-.PHONY : SimpleFOC/CurrentSense.obj
-
-# target to build an object file
-SimpleFOC/CurrentSense.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj
-.PHONY : SimpleFOC/CurrentSense.c.obj
-
-SimpleFOC/CurrentSense.i: SimpleFOC/CurrentSense.c.i
-.PHONY : SimpleFOC/CurrentSense.i
-
-# target to preprocess a source file
-SimpleFOC/CurrentSense.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.i
-.PHONY : SimpleFOC/CurrentSense.c.i
-
-SimpleFOC/CurrentSense.s: SimpleFOC/CurrentSense.c.s
-.PHONY : SimpleFOC/CurrentSense.s
-
-# target to generate assembly for a file
-SimpleFOC/CurrentSense.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.s
-.PHONY : SimpleFOC/CurrentSense.c.s
-
-SimpleFOC/Encoder.obj: SimpleFOC/Encoder.c.obj
-.PHONY : SimpleFOC/Encoder.obj
-
-# target to build an object file
-SimpleFOC/Encoder.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj
-.PHONY : SimpleFOC/Encoder.c.obj
-
-SimpleFOC/Encoder.i: SimpleFOC/Encoder.c.i
-.PHONY : SimpleFOC/Encoder.i
-
-# target to preprocess a source file
-SimpleFOC/Encoder.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.i
-.PHONY : SimpleFOC/Encoder.c.i
-
-SimpleFOC/Encoder.s: SimpleFOC/Encoder.c.s
-.PHONY : SimpleFOC/Encoder.s
-
-# target to generate assembly for a file
-SimpleFOC/Encoder.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.s
-.PHONY : SimpleFOC/Encoder.c.s
-
-SimpleFOC/FOCMotor.obj: SimpleFOC/FOCMotor.c.obj
-.PHONY : SimpleFOC/FOCMotor.obj
-
-# target to build an object file
-SimpleFOC/FOCMotor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj
-.PHONY : SimpleFOC/FOCMotor.c.obj
-
-SimpleFOC/FOCMotor.i: SimpleFOC/FOCMotor.c.i
-.PHONY : SimpleFOC/FOCMotor.i
-
-# target to preprocess a source file
-SimpleFOC/FOCMotor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.i
-.PHONY : SimpleFOC/FOCMotor.c.i
-
-SimpleFOC/FOCMotor.s: SimpleFOC/FOCMotor.c.s
-.PHONY : SimpleFOC/FOCMotor.s
-
-# target to generate assembly for a file
-SimpleFOC/FOCMotor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.s
-.PHONY : SimpleFOC/FOCMotor.c.s
-
-SimpleFOC/MagneticSensorI2C.obj: SimpleFOC/MagneticSensorI2C.c.obj
-.PHONY : SimpleFOC/MagneticSensorI2C.obj
-
-# target to build an object file
-SimpleFOC/MagneticSensorI2C.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj
-.PHONY : SimpleFOC/MagneticSensorI2C.c.obj
-
-SimpleFOC/MagneticSensorI2C.i: SimpleFOC/MagneticSensorI2C.c.i
-.PHONY : SimpleFOC/MagneticSensorI2C.i
-
-# target to preprocess a source file
-SimpleFOC/MagneticSensorI2C.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.i
-.PHONY : SimpleFOC/MagneticSensorI2C.c.i
-
-SimpleFOC/MagneticSensorI2C.s: SimpleFOC/MagneticSensorI2C.c.s
-.PHONY : SimpleFOC/MagneticSensorI2C.s
-
-# target to generate assembly for a file
-SimpleFOC/MagneticSensorI2C.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.s
-.PHONY : SimpleFOC/MagneticSensorI2C.c.s
-
-SimpleFOC/MagneticSensorSPI.obj: SimpleFOC/MagneticSensorSPI.c.obj
-.PHONY : SimpleFOC/MagneticSensorSPI.obj
-
-# target to build an object file
-SimpleFOC/MagneticSensorSPI.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj
-.PHONY : SimpleFOC/MagneticSensorSPI.c.obj
-
-SimpleFOC/MagneticSensorSPI.i: SimpleFOC/MagneticSensorSPI.c.i
-.PHONY : SimpleFOC/MagneticSensorSPI.i
-
-# target to preprocess a source file
-SimpleFOC/MagneticSensorSPI.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.i
-.PHONY : SimpleFOC/MagneticSensorSPI.c.i
-
-SimpleFOC/MagneticSensorSPI.s: SimpleFOC/MagneticSensorSPI.c.s
-.PHONY : SimpleFOC/MagneticSensorSPI.s
-
-# target to generate assembly for a file
-SimpleFOC/MagneticSensorSPI.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.s
-.PHONY : SimpleFOC/MagneticSensorSPI.c.s
-
-SimpleFOC/Sensor.obj: SimpleFOC/Sensor.c.obj
-.PHONY : SimpleFOC/Sensor.obj
-
-# target to build an object file
-SimpleFOC/Sensor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj
-.PHONY : SimpleFOC/Sensor.c.obj
-
-SimpleFOC/Sensor.i: SimpleFOC/Sensor.c.i
-.PHONY : SimpleFOC/Sensor.i
-
-# target to preprocess a source file
-SimpleFOC/Sensor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.i
-.PHONY : SimpleFOC/Sensor.c.i
-
-SimpleFOC/Sensor.s: SimpleFOC/Sensor.c.s
-.PHONY : SimpleFOC/Sensor.s
-
-# target to generate assembly for a file
-SimpleFOC/Sensor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.s
-.PHONY : SimpleFOC/Sensor.c.s
-
-SimpleFOC/lowpass_filter.obj: SimpleFOC/lowpass_filter.c.obj
-.PHONY : SimpleFOC/lowpass_filter.obj
-
-# target to build an object file
-SimpleFOC/lowpass_filter.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj
-.PHONY : SimpleFOC/lowpass_filter.c.obj
-
-SimpleFOC/lowpass_filter.i: SimpleFOC/lowpass_filter.c.i
-.PHONY : SimpleFOC/lowpass_filter.i
-
-# target to preprocess a source file
-SimpleFOC/lowpass_filter.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.i
-.PHONY : SimpleFOC/lowpass_filter.c.i
-
-SimpleFOC/lowpass_filter.s: SimpleFOC/lowpass_filter.c.s
-.PHONY : SimpleFOC/lowpass_filter.s
-
-# target to generate assembly for a file
-SimpleFOC/lowpass_filter.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.s
-.PHONY : SimpleFOC/lowpass_filter.c.s
-
-SimpleFOC/lowsideCurrentSense.obj: SimpleFOC/lowsideCurrentSense.c.obj
-.PHONY : SimpleFOC/lowsideCurrentSense.obj
-
-# target to build an object file
-SimpleFOC/lowsideCurrentSense.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj
-.PHONY : SimpleFOC/lowsideCurrentSense.c.obj
-
-SimpleFOC/lowsideCurrentSense.i: SimpleFOC/lowsideCurrentSense.c.i
-.PHONY : SimpleFOC/lowsideCurrentSense.i
-
-# target to preprocess a source file
-SimpleFOC/lowsideCurrentSense.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.i
-.PHONY : SimpleFOC/lowsideCurrentSense.c.i
-
-SimpleFOC/lowsideCurrentSense.s: SimpleFOC/lowsideCurrentSense.c.s
-.PHONY : SimpleFOC/lowsideCurrentSense.s
-
-# target to generate assembly for a file
-SimpleFOC/lowsideCurrentSense.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.s
-.PHONY : SimpleFOC/lowsideCurrentSense.c.s
-
-SimpleFOC/motor_base.obj: SimpleFOC/motor_base.cpp.obj
-.PHONY : SimpleFOC/motor_base.obj
-
-# target to build an object file
-SimpleFOC/motor_base.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj
-.PHONY : SimpleFOC/motor_base.cpp.obj
-
-SimpleFOC/motor_base.i: SimpleFOC/motor_base.cpp.i
-.PHONY : SimpleFOC/motor_base.i
-
-# target to preprocess a source file
-SimpleFOC/motor_base.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.i
-.PHONY : SimpleFOC/motor_base.cpp.i
-
-SimpleFOC/motor_base.s: SimpleFOC/motor_base.cpp.s
-.PHONY : SimpleFOC/motor_base.s
-
-# target to generate assembly for a file
-SimpleFOC/motor_base.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.s
-.PHONY : SimpleFOC/motor_base.cpp.s
-
-SimpleFOC/pid.obj: SimpleFOC/pid.c.obj
-.PHONY : SimpleFOC/pid.obj
-
-# target to build an object file
-SimpleFOC/pid.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj
-.PHONY : SimpleFOC/pid.c.obj
-
-SimpleFOC/pid.i: SimpleFOC/pid.c.i
-.PHONY : SimpleFOC/pid.i
-
-# target to preprocess a source file
-SimpleFOC/pid.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.i
-.PHONY : SimpleFOC/pid.c.i
-
-SimpleFOC/pid.s: SimpleFOC/pid.c.s
-.PHONY : SimpleFOC/pid.s
-
-# target to generate assembly for a file
-SimpleFOC/pid.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.s
-.PHONY : SimpleFOC/pid.c.s
-
 UserApp/main.obj: UserApp/main.cpp.obj
 .PHONY : UserApp/main.obj
 
@@ -1669,6 +1549,21 @@ help:
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
+	@echo ... Ctrl/BLDCMotor.obj
+	@echo ... Ctrl/BLDCMotor.i
+	@echo ... Ctrl/BLDCMotor.s
+	@echo ... Ctrl/Motor/FOCMotor.obj
+	@echo ... Ctrl/Motor/FOCMotor.i
+	@echo ... Ctrl/Motor/FOCMotor.s
+	@echo ... Ctrl/Sensor/CurrentSense/CurrentSense.obj
+	@echo ... Ctrl/Sensor/CurrentSense/CurrentSense.i
+	@echo ... Ctrl/Sensor/CurrentSense/CurrentSense.s
+	@echo ... Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.obj
+	@echo ... Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.i
+	@echo ... Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.s
+	@echo ... Ctrl/Sensor/CurrentSense/Sensor.obj
+	@echo ... Ctrl/Sensor/CurrentSense/Sensor.i
+	@echo ... Ctrl/Sensor/CurrentSense/Sensor.s
 	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5047.obj
 	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5047.i
 	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5047.s
@@ -1759,6 +1654,9 @@ help:
 	@echo ... Hardware/spi3.obj
 	@echo ... Hardware/spi3.i
 	@echo ... Hardware/spi3.s
+	@echo ... Platform/Print/print_base.obj
+	@echo ... Platform/Print/print_base.i
+	@echo ... Platform/Print/print_base.s
 	@echo ... Platform/Sensor/Encoder/encoder_as5047_stm32.obj
 	@echo ... Platform/Sensor/Encoder/encoder_as5047_stm32.i
 	@echo ... Platform/Sensor/Encoder/encoder_as5047_stm32.s
@@ -1777,39 +1675,6 @@ help:
 	@echo ... Platform/Utils/time_utils.obj
 	@echo ... Platform/Utils/time_utils.i
 	@echo ... Platform/Utils/time_utils.s
-	@echo ... SimpleFOC/BLDCMotor.obj
-	@echo ... SimpleFOC/BLDCMotor.i
-	@echo ... SimpleFOC/BLDCMotor.s
-	@echo ... SimpleFOC/CurrentSense.obj
-	@echo ... SimpleFOC/CurrentSense.i
-	@echo ... SimpleFOC/CurrentSense.s
-	@echo ... SimpleFOC/Encoder.obj
-	@echo ... SimpleFOC/Encoder.i
-	@echo ... SimpleFOC/Encoder.s
-	@echo ... SimpleFOC/FOCMotor.obj
-	@echo ... SimpleFOC/FOCMotor.i
-	@echo ... SimpleFOC/FOCMotor.s
-	@echo ... SimpleFOC/MagneticSensorI2C.obj
-	@echo ... SimpleFOC/MagneticSensorI2C.i
-	@echo ... SimpleFOC/MagneticSensorI2C.s
-	@echo ... SimpleFOC/MagneticSensorSPI.obj
-	@echo ... SimpleFOC/MagneticSensorSPI.i
-	@echo ... SimpleFOC/MagneticSensorSPI.s
-	@echo ... SimpleFOC/Sensor.obj
-	@echo ... SimpleFOC/Sensor.i
-	@echo ... SimpleFOC/Sensor.s
-	@echo ... SimpleFOC/lowpass_filter.obj
-	@echo ... SimpleFOC/lowpass_filter.i
-	@echo ... SimpleFOC/lowpass_filter.s
-	@echo ... SimpleFOC/lowsideCurrentSense.obj
-	@echo ... SimpleFOC/lowsideCurrentSense.i
-	@echo ... SimpleFOC/lowsideCurrentSense.s
-	@echo ... SimpleFOC/motor_base.obj
-	@echo ... SimpleFOC/motor_base.i
-	@echo ... SimpleFOC/motor_base.s
-	@echo ... SimpleFOC/pid.obj
-	@echo ... SimpleFOC/pid.i
-	@echo ... SimpleFOC/pid.s
 	@echo ... UserApp/main.obj
 	@echo ... UserApp/main.i
 	@echo ... UserApp/main.s

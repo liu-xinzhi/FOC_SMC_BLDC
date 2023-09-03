@@ -1,5 +1,5 @@
 #include "encoder_base.h"
-#include "Ctrl/Utils/foc_utils.h"
+#include "foc_utils.h"
 
 inline float abs(float _v)
 {
@@ -64,4 +64,14 @@ float EncoderBase::GetAngle()
 int32_t EncoderBase::getFullRotations()
 {
     return full_rotations;
+}
+
+/**
+* returns 0 if it does need search for absolute zero
+* 0 - magnetic sensor (& encoder with index which is found)
+* 1 - ecoder with index (with index not found yet)
+*/
+int EncoderBase::needsSearch()
+{
+    return 0;
 }

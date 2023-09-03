@@ -8,6 +8,12 @@ void delay(uint32_t _ms)
         __NOP();
 }
 
+void _delay(uint32_t _ms)
+{
+    uint32_t t0 = micros();
+    while (micros() - t0 < _ms * 1000)
+        __NOP();
+}
 
 void delayMicroseconds(uint32_t _us)
 {

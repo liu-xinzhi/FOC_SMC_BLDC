@@ -19,7 +19,7 @@ void EncoderAS5047Base::Init()
     InitVars();
 }
 
-
+/*Sensor 有更好的解决办法*/
 float EncoderAS5047Base::GetSensorAngle()
 {
     return ((float) GetRawData() / (float) cpr) * _2PI;

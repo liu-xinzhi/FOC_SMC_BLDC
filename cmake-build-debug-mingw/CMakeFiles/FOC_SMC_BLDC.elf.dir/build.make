@@ -236,10 +236,80 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.s"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Core\Src\usart.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Core\Src\usart.c.s
 
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj: ../Ctrl/BLDCMotor.cpp
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\BLDCMotor.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\BLDCMotor.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\BLDCMotor.cpp
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\BLDCMotor.cpp > CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\BLDCMotor.cpp.i
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\BLDCMotor.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\BLDCMotor.cpp.s
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj: ../Ctrl/Motor/FOCMotor.cpp
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Motor\FOCMotor.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Motor\FOCMotor.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor\FOCMotor.cpp
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor\FOCMotor.cpp > CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Motor\FOCMotor.cpp.i
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor\FOCMotor.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Motor\FOCMotor.cpp.s
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj: ../Ctrl/Sensor/CurrentSense/CurrentSense.cpp
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\CurrentSense.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\CurrentSense.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\CurrentSense.cpp
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\CurrentSense.cpp > CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\CurrentSense.cpp.i
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\CurrentSense.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\CurrentSense.cpp.s
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj: ../Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp > CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp.i
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp.s
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj: ../Ctrl/Sensor/CurrentSense/Sensor.cpp
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Sensor.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Sensor.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Sensor.cpp
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Sensor.cpp > CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Sensor.cpp.i
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Sensor.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\CurrentSense\Sensor.cpp.s
+
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj: ../Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\Encoder\Instances\encoder_as5047.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\Encoder\Instances\encoder_as5047.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder\Instances\encoder_as5047.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.i: cmake_force
@@ -253,7 +323,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj: ../Ctrl/Sensor/Encoder/encoder_base.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\Encoder\encoder_base.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Sensor\Encoder\encoder_base.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder\encoder_base.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.i: cmake_force
@@ -267,7 +337,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.s: cmake_fo
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj: ../Ctrl/Signal/button_base.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Signal\button_base.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Signal\button_base.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Signal\button_base.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.i: cmake_force
@@ -281,7 +351,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj: ../Ctrl/Signal/io_signal_base.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Signal\io_signal_base.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Signal\io_signal_base.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Signal\io_signal_base.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.i: cmake_force
@@ -295,7 +365,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj: ../Ctrl/Utils/foc_utils.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Utils\foc_utils.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Utils\foc_utils.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils\foc_utils.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.i: cmake_force
@@ -309,7 +379,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj: ../Ctrl/Utils/lowpass_filter.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Utils\lowpass_filter.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Utils\lowpass_filter.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils\lowpass_filter.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.i: cmake_force
@@ -323,7 +393,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj: ../Ctrl/Utils/pid.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Utils\pid.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Ctrl\Utils\pid.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils\pid.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.i: cmake_force
@@ -337,7 +407,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -351,7 +421,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
@@ -365,7 +435,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_a
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
@@ -379,7 +449,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_a
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -393,7 +463,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -407,7 +477,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -421,7 +491,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_d
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -435,7 +505,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_d
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -449,7 +519,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_e
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -463,7 +533,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_f
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -477,7 +547,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_f
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -491,7 +561,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_f
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -505,7 +575,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_g
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -519,7 +589,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_p
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -533,7 +603,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_p
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -547,7 +617,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_r
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -561,7 +631,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_r
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -575,7 +645,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_s
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -589,7 +659,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_t
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -603,7 +673,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_t
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -617,7 +687,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_u
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
@@ -631,7 +701,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_ad
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj: ../Hardware/i2c_software.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Hardware\i2c_software.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Hardware\i2c_software.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Hardware\i2c_software.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.i: cmake_force
@@ -645,7 +715,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj: ../Hardware/spi3.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Hardware\spi3.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Hardware\spi3.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Hardware\spi3.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.i: cmake_force
@@ -656,10 +726,24 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.s"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Hardware\spi3.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Hardware\spi3.c.s
 
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj: ../Platform/Print/print_base.cpp
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Print\print_base.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Print\print_base.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Platform\Print\print_base.cpp
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\Platform\Print\print_base.cpp > CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Print\print_base.cpp.i
+
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Platform\Print\print_base.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Print\print_base.cpp.s
+
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj: ../Platform/Sensor/Encoder/encoder_as5047_stm32.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Sensor\Encoder\encoder_as5047_stm32.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Sensor\Encoder\encoder_as5047_stm32.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Platform\Sensor\Encoder\encoder_as5047_stm32.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.i: cmake_force
@@ -673,7 +757,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj: ../Platform/Signal/button_stm32.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Signal\button_stm32.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Signal\button_stm32.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Platform\Signal\button_stm32.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.i: cmake_force
@@ -687,7 +771,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj: ../Platform/Utils/Memory/emulated_eeprom.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\Memory\emulated_eeprom.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\Memory\emulated_eeprom.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils\Memory\emulated_eeprom.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.i: cmake_force
@@ -701,7 +785,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.s: cma
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj: ../Platform/Utils/retarget.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\retarget.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\retarget.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils\retarget.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.i: cmake_force
@@ -715,7 +799,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj: ../Platform/Utils/st_hardware.c
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\st_hardware.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\st_hardware.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils\st_hardware.c
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.i: cmake_force
@@ -729,7 +813,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj: ../Platform/Utils/time_utils.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\time_utils.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\time_utils.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils\time_utils.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.i: cmake_force
@@ -740,164 +824,10 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.s"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils\time_utils.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\Platform\Utils\time_utils.cpp.s
 
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj: ../SimpleFOC/BLDCMotor.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\BLDCMotor.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\BLDCMotor.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\BLDCMotor.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\BLDCMotor.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\BLDCMotor.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\BLDCMotor.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\BLDCMotor.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj: ../SimpleFOC/CurrentSense.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\CurrentSense.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\CurrentSense.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\CurrentSense.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\CurrentSense.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\CurrentSense.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\CurrentSense.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\CurrentSense.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj: ../SimpleFOC/Encoder.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Encoder.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Encoder.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\Encoder.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\Encoder.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Encoder.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\Encoder.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Encoder.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj: ../SimpleFOC/FOCMotor.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\FOCMotor.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\FOCMotor.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\FOCMotor.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\FOCMotor.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\FOCMotor.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\FOCMotor.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\FOCMotor.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj: ../SimpleFOC/MagneticSensorI2C.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorI2C.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorI2C.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\MagneticSensorI2C.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\MagneticSensorI2C.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorI2C.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\MagneticSensorI2C.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorI2C.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj: ../SimpleFOC/MagneticSensorSPI.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorSPI.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorSPI.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\MagneticSensorSPI.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\MagneticSensorSPI.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorSPI.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\MagneticSensorSPI.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\MagneticSensorSPI.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj: ../SimpleFOC/Sensor.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Sensor.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Sensor.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\Sensor.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\Sensor.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Sensor.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\Sensor.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\Sensor.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj: ../SimpleFOC/lowpass_filter.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowpass_filter.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowpass_filter.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\lowpass_filter.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\lowpass_filter.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowpass_filter.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\lowpass_filter.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowpass_filter.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj: ../SimpleFOC/lowsideCurrentSense.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowsideCurrentSense.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowsideCurrentSense.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\lowsideCurrentSense.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\lowsideCurrentSense.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowsideCurrentSense.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\lowsideCurrentSense.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\lowsideCurrentSense.c.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj: ../SimpleFOC/motor_base.cpp
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\motor_base.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\motor_base.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\motor_base.cpp
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\motor_base.cpp > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\motor_base.cpp.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\motor_base.cpp -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\motor_base.cpp.s
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj: ../SimpleFOC/pid.c
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\pid.c.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\pid.c.obj -c D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\pid.c
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.i"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\pid.c > CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\pid.c.i
-
-CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.s"
-	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FreeRTOS\FOC_SMC_BLDC\SimpleFOC\pid.c -o CMakeFiles\FOC_SMC_BLDC.elf.dir\SimpleFOC\pid.c.s
-
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj: ../UserApp/main.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\UserApp\main.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\UserApp\main.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\UserApp\main.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.i: cmake_force
@@ -911,7 +841,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.s: cmake_force
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj: ../UserApp/protocols/interface_can.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\UserApp\protocols\interface_can.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\UserApp\protocols\interface_can.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\UserApp\protocols\interface_can.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.i: cmake_force
@@ -925,7 +855,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.s: cmake_for
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj: ../UserApp/protocols/interface_uart.cpp
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj -MF CMakeFiles\FOC_SMC_BLDC.elf.dir\UserApp\protocols\interface_uart.cpp.obj.d -o CMakeFiles\FOC_SMC_BLDC.elf.dir\UserApp\protocols\interface_uart.cpp.obj -c D:\FreeRTOS\FOC_SMC_BLDC\UserApp\protocols\interface_uart.cpp
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.i: cmake_force
@@ -938,7 +868,7 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.s: cmake_fo
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/startup/startup_stm32f405xx.s.obj: CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make
 CMakeFiles/FOC_SMC_BLDC.elf.dir/startup/startup_stm32f405xx.s.obj: ../startup/startup_stm32f405xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building ASM object CMakeFiles/FOC_SMC_BLDC.elf.dir/startup/startup_stm32f405xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building ASM object CMakeFiles/FOC_SMC_BLDC.elf.dir/startup/startup_stm32f405xx.s.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\FOC_SMC_BLDC.elf.dir\startup\startup_stm32f405xx.s.obj -c D:\FreeRTOS\FOC_SMC_BLDC\startup\startup_stm32f405xx.s
 
 CMakeFiles/FOC_SMC_BLDC.elf.dir/startup/startup_stm32f405xx.s.i: cmake_force
@@ -963,6 +893,11 @@ FOC_SMC_BLDC_elf_OBJECTS = \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.obj" \
+"CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj" \
+"CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj" \
+"CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj" \
+"CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj" \
+"CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj" \
@@ -993,23 +928,13 @@ FOC_SMC_BLDC_elf_OBJECTS = \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj" \
+"CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj" \
-"CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj" \
 "CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj" \
@@ -1030,6 +955,11 @@ FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/syscalls.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/system_stm32f4xx.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/tim.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.obj
+FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj
+FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj
+FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj
+FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj
+FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj
@@ -1060,23 +990,13 @@ FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/S
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj
+FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj
-FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj
@@ -1084,7 +1004,7 @@ FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/startup/startup_stm32f405xx.s.
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/build.make
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/objects1.rsp
 FOC_SMC_BLDC.elf: CMakeFiles/FOC_SMC_BLDC.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking CXX executable FOC_SMC_BLDC.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FreeRTOS\FOC_SMC_BLDC\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable FOC_SMC_BLDC.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FOC_SMC_BLDC.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/FOC_SMC_BLDC.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/FOC_SMC_BLDC.bin"
