@@ -1,0 +1,3 @@
+D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir
+D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

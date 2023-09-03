@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FOC_SMC_BLDC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FOC_SMC_BLDC.elf">
+				<Option output="D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/FOC_SMC_BLDC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-D__MICROLIB"/>
+					<Add option="-DSTM32F4"/>
+					<Add option="-DSTM32F4xx"/>
+					<Add option="-DSTM32F405xx"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/."/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/UserApp"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Hardware"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 FOC_SMC_BLDC.elf"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FOC_SMC_BLDC.elf/fast">
+				<Option output="D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/FOC_SMC_BLDC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-D__MICROLIB"/>
+					<Add option="-DSTM32F4"/>
+					<Add option="-DSTM32F4xx"/>
+					<Add option="-DSTM32F405xx"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/."/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/UserApp"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Hardware"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 FOC_SMC_BLDC.elf/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/FOC_SMC_BLDC/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/adc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/can.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/dma.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/gpio.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/main.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/spi.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/stm32f4xx_it.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/tim.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Inc/usart.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/adc.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/can.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/dma.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/gpio.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/main.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/spi.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/stm32f4xx_it.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/syscalls.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/system_stm32f4xx.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/tim.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Core/Src/usart.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances/encoder_as5047.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/encoder_base.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/encoder_base.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal/button_base.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal/button_base.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal/io_signal_base.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal/io_signal_base.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/defaults.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/foc_utils.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/foc_utils.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/lowpass_filter.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/lowpass_filter.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/pid.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils/pid.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/License.md">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/LICENSE.txt">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/License.md">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/i2c_software.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/i2c_software.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/spi3.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/spi3.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder/encoder_as5047_stm32.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Signal/button_stm32.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Signal/button_stm32.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/Memory/eeprom_interface.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/Memory/emulated_eeprom.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/Memory/emulated_eeprom.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/retarget.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/retarget.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/st_hardware.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/st_hardware.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/time_utils.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils/time_utils.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/STM32F405RGTx_FLASH.ld">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/BLDCMotor.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/BLDCMotor.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/CurrentSense.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/CurrentSense.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Encoder.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Encoder.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/FOCMotor.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/FOCMotor.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/MagneticSensor.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/MagneticSensorI2C.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/MagneticSensorSPI.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Sensor.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/Sensor.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowpass_filter.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowpass_filter.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowsideCurrentSense.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/lowsideCurrentSense.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/motor_base.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/motor_base.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/pid.c">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC/pid.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/MyProject.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/common_inc.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/configurations.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/main.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/protocols/interface_can.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/protocols/interface_uart.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/UserApp/user.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/startup/startup_stm32f405xx.s">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
