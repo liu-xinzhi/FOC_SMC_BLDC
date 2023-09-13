@@ -21,8 +21,12 @@
 #include "usart.h"
 
 /* USER CODE BEGIN 0 */
-#include "stdio.h"
-#include "string.h"
+#include "common_inc.h"
+#include "Platform/Utils/retarget.h"
+
+volatile uint8_t rxLen = 0;
+uint8_t rx_buffer[BUFFER_SIZE] = {0};
+void (* OnRecvEnd)(uint8_t* data, uint16_t len);
 
 char snd2_buff[USART2_BUFFER_SIZE];
 char rcv2_buff[USART2_BUFFER_SIZE];
@@ -32,8 +36,8 @@ unsigned long rcv2_flag;
 /* USER CODE END 0 */
 
 UART_HandleTypeDef huart2;
-DMA_HandleTypeDef hdma_usart2_tx;
 DMA_HandleTypeDef hdma_usart2_rx;
+DMA_HandleTypeDef hdma_usart2_tx;
 
 /* USART2 init function */
 
@@ -60,6 +64,12 @@ void MX_USART2_UART_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN USART2_Init 2 */
+
+    __HAL_UART_ENABLE_IT(&huart2, UART_IT_IDLE);
+    RetargetInit(&huart2);
+    Uart_SetRxCpltCallBack(OnUartCmd);
+//
+    HAL_UART_Receive_DMA(&huart2, rcv2_buff, BUFFER_SIZE);
 
   /* USER CODE END USART2_Init 2 */
 
@@ -90,6 +100,24 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
     /* USART2 DMA Init */
+    /* USART2_RX Init */
+    hdma_usart2_rx.Instance = DMA1_Stream5;
+    hdma_usart2_rx.Init.Channel = DMA_CHANNEL_4;
+    hdma_usart2_rx.Init.Direction = DMA_PERIPH_TO_MEMORY;
+    hdma_usart2_rx.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_usart2_rx.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_usart2_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
+    hdma_usart2_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
+    hdma_usart2_rx.Init.Mode = DMA_CIRCULAR;
+    hdma_usart2_rx.Init.Priority = DMA_PRIORITY_MEDIUM;
+    hdma_usart2_rx.Init.FIFOMode = DMA_FIFOMODE_DISABLE;
+    if (HAL_DMA_Init(&hdma_usart2_rx) != HAL_OK)
+    {
+      Error_Handler();
+    }
+
+    __HAL_LINKDMA(uartHandle,hdmarx,hdma_usart2_rx);
+
     /* USART2_TX Init */
     hdma_usart2_tx.Instance = DMA1_Stream6;
     hdma_usart2_tx.Init.Channel = DMA_CHANNEL_4;
@@ -99,7 +127,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
     hdma_usart2_tx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
     hdma_usart2_tx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
     hdma_usart2_tx.Init.Mode = DMA_NORMAL;
-    hdma_usart2_tx.Init.Priority = DMA_PRIORITY_LOW;
+    hdma_usart2_tx.Init.Priority = DMA_PRIORITY_MEDIUM;
     hdma_usart2_tx.Init.FIFOMode = DMA_FIFOMODE_DISABLE;
     if (HAL_DMA_Init(&hdma_usart2_tx) != HAL_OK)
     {
@@ -107,24 +135,6 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
     }
 
     __HAL_LINKDMA(uartHandle,hdmatx,hdma_usart2_tx);
-
-    /* USART2_RX Init */
-    hdma_usart2_rx.Instance = DMA1_Stream5;
-    hdma_usart2_rx.Init.Channel = DMA_CHANNEL_4;
-    hdma_usart2_rx.Init.Direction = DMA_PERIPH_TO_MEMORY;
-    hdma_usart2_rx.Init.PeriphInc = DMA_PINC_DISABLE;
-    hdma_usart2_rx.Init.MemInc = DMA_MINC_ENABLE;
-    hdma_usart2_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
-    hdma_usart2_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
-    hdma_usart2_rx.Init.Mode = DMA_NORMAL;
-    hdma_usart2_rx.Init.Priority = DMA_PRIORITY_LOW;
-    hdma_usart2_rx.Init.FIFOMode = DMA_FIFOMODE_DISABLE;
-    if (HAL_DMA_Init(&hdma_usart2_rx) != HAL_OK)
-    {
-      Error_Handler();
-    }
-
-    __HAL_LINKDMA(uartHandle,hdmarx,hdma_usart2_rx);
 
     /* USART2 interrupt Init */
     HAL_NVIC_SetPriority(USART2_IRQn, 0, 0);
@@ -153,8 +163,8 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_2|GPIO_PIN_3);
 
     /* USART2 DMA DeInit */
-    HAL_DMA_DeInit(uartHandle->hdmatx);
     HAL_DMA_DeInit(uartHandle->hdmarx);
+    HAL_DMA_DeInit(uartHandle->hdmatx);
 
     /* USART2 interrupt Deinit */
     HAL_NVIC_DisableIRQ(USART2_IRQn);
@@ -169,7 +179,11 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 /********************************************************************/
 void USART2_SendDMA(uint32_t len)
 {
-//    HAL_UART_Transmit_DMA(&huart2, recvStr, len);
+    __HAL_DMA_DISABLE(&hdma_usart2_tx);     //关闭DMA传输
+    //while(DMA_GetCmdStatus(DMA1_Stream6) != DISABLE){}     //确保DMA可以被设置
+    __HAL_DMA_SET_COUNTER(&hdma_usart2_tx, len);             //设置传输字节数
+    __HAL_DMA_ENABLE(&hdma_usart2_tx);      //开启DMA传输
+    ATOMIC_SET_BIT(huart2.Instance->CR3, USART_CR3_DMAT);
 }
 /********************************************************************
  * USART2 接收空闲中断服务函数
@@ -182,18 +196,16 @@ void USART_IDLECallback(UART_HandleTypeDef *huart)
 
     // 计算接收到的数据长度
     rcv2_cntr  = USART2_BUFFER_SIZE - __HAL_DMA_GET_COUNTER(&hdma_usart2_rx);
-
-    // 测试函数：将接收到的数据打印出去
-    printf("Receive Data(length = %lu): ",rcv2_cntr);
-    HAL_UART_Transmit(&huart2,(uint8_t*)rcv2_buff,rcv2_cntr,0x200);
-    printf("\r\n");
-
     // 清零接收缓冲区
 //    memset(rcv2_buff,0,rcv2_cntr);
     rcv2_cntr = 0;
 
     // 重启开始DMA传输 每次255字节数据
     HAL_UART_Receive_DMA(&huart2, (uint8_t*)rcv2_buff, USART2_BUFFER_SIZE);
+    // 测试函数：将接收到的数据打印出去
+    printf("Receive Data(length = %lu): ",rcv2_cntr);
+    HAL_UART_Transmit(&huart2,(uint8_t*)rcv2_buff,rcv2_cntr,0x200);
+    printf("\r\n");
      //开启DMA传输
     rcv2_flag = 1;
 }
@@ -205,26 +217,26 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
         // 判断是否是空闲中断
         if (RESET != __HAL_UART_GET_FLAG(&huart2, UART_FLAG_IDLE))
         {
+            rcv2_cntr=USART2->SR;
+            rcv2_cntr=USART2->DR;     //清除中断标志USART_ClearITPendingBit(USART2,USART_IT_RXNE)
+            rcv2_cntr=USART2_BUFFER_SIZE-__HAL_DMA_GET_COUNTER(&hdma_usart2_rx);  //读取接收字节个数
+            __HAL_DMA_DISABLE(&hdma_usart2_rx);                          //关闭DMA传输
+            while((hdma_usart2_rx.Instance->CR & DMA_SxCR_EN) != RESET){}       //确保DMA可以被设置
+            __HAL_DMA_SET_COUNTER(&hdma_usart2_rx,USART2_BUFFER_SIZE); //数据传输量
+            __HAL_DMA_ENABLE(&hdma_usart2_tx);                            //开启DMA传输
+            rcv2_flag=1;
             // 清除空闲中断标志（否则会一直不断进入中断）
             __HAL_UART_CLEAR_IDLEFLAG(&huart2);
             // 调用中断处理函数
-            USART_IDLECallback(huart);
+//            USART_IDLECallback(huart);
         }
     }
 }
 
+void Uart_SetRxCpltCallBack(void(* xerc)(uint8_t*, uint16_t))
+{
+    OnRecvEnd = xerc;
+}
 
-
-///********************************************************************
-// * USART2 DMA发送中断服务函数
-//********************************************************************/
-//void DMA1_Stream6_IRQHandler(void)
-//{
-//    if(DMA_GetITStatus(DMA1_Stream6,DMA_IT_TCIF6) == SET)
-//    {
-//        DMA_ClearITPendingBit(DMA1_Stream6,DMA_IT_TCIF6);
-//        DMA_Cmd(DMA1_Stream6,DISABLE);   //本次发送完成，关闭DMA，下次使用再打开
-//    }
-//}
 
 /* USER CODE END 1 */

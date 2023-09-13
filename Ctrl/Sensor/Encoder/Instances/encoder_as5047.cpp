@@ -1,5 +1,4 @@
 #include "encoder_as5047.h"
-#include "spi.h"
 
 
 EncoderAS5047Base::EncoderAS5047Base()
@@ -17,6 +16,7 @@ void EncoderAS5047Base::Init()
 {
     SpiInit();
     InitVars();
+    angle_raw_pre = GetRawData();
 }
 
 /*Sensor 有更好的解决办法*/

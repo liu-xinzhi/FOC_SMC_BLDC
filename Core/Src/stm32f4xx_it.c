@@ -22,6 +22,7 @@
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usart.h"
 
 /* USER CODE END Includes */
 
@@ -42,8 +43,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-
-//tim1配置为中央对齐模式，一个周期update两次，每(2+1)次触发一次，所以进入中断的频率为16KHz，
+extern  int a,b,c;
 
 /* USER CODE END PV */
 
@@ -58,13 +58,12 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern DMA_HandleTypeDef hdma_adc1;
 extern ADC_HandleTypeDef hadc1;
 extern ADC_HandleTypeDef hadc2;
 extern ADC_HandleTypeDef hadc3;
 extern TIM_HandleTypeDef htim1;
-extern DMA_HandleTypeDef hdma_usart2_tx;
 extern DMA_HandleTypeDef hdma_usart2_rx;
+extern DMA_HandleTypeDef hdma_usart2_tx;
 extern UART_HandleTypeDef huart2;
 /* USER CODE BEGIN EV */
 
@@ -249,27 +248,6 @@ void ADC_IRQHandler(void)
   HAL_ADC_IRQHandler(&hadc3);
   /* USER CODE BEGIN ADC_IRQn 1 */
 
-    if(((ADC2->SR & ADC_SR_JEOC) == ADC_SR_JEOC)&&((ADC3->SR & ADC_SR_JEOC) == ADC_SR_JEOC))
-    {
-        ADC2->SR = ~ADC_SR_JEOC;
-        ADC3->SR = ~ADC_SR_JEOC;
-        if((TIM1->CR1 & TIM_CR1_DIR)==0)   //=0为递增计数,上臂为低下臂为高,此时采样，进入频率8KHz
-        {
-//            M0.phB = (float)ADC2->JDR1 *3.3f/4096;
-//            M0.phC = (float)ADC3->JDR1 *3.3f/4096;
-        }
-    }
-    if(((ADC2->SR & ADC_SR_EOC) == ADC_SR_EOC)&&((ADC3->SR & ADC_SR_EOC) == ADC_SR_EOC))
-    {
-        ADC2->SR = ~ADC_SR_EOC;
-        ADC3->SR = ~ADC_SR_EOC;
-        if((TIM8->CR1 & TIM_CR1_DIR)==0)   //=0为递增计数,上臂为低下臂为高,此时采样，进入频率8KHz
-        {
-//            M1.phB = (float)ADC2->DR *3.3f/4096;
-//            M1.phC = (float)ADC3->DR *3.3f/4096;
-        }
-    }
-
   /* USER CODE END ADC_IRQn 1 */
 }
 
@@ -327,20 +305,6 @@ void EXTI15_10_IRQHandler(void)
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
 
   /* USER CODE END EXTI15_10_IRQn 1 */
-}
-
-/**
-  * @brief This function handles DMA2 stream0 global interrupt.
-  */
-void DMA2_Stream0_IRQHandler(void)
-{
-  /* USER CODE BEGIN DMA2_Stream0_IRQn 0 */
-
-  /* USER CODE END DMA2_Stream0_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_adc1);
-  /* USER CODE BEGIN DMA2_Stream0_IRQn 1 */
-
-  /* USER CODE END DMA2_Stream0_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */

@@ -29,13 +29,15 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-/******************************************************************************/
-#define USART2_BUFFER_SIZE 256
-/******************************************************************************/
-extern char snd2_buff[USART2_BUFFER_SIZE];
-extern char rcv2_buff[USART2_BUFFER_SIZE];
-extern unsigned long rcv2_cntr;
-extern unsigned long rcv2_flag;
+#include "stdio.h"
+
+#define BUFFER_SIZE  128
+
+extern DMA_HandleTypeDef hdma_usart2_rx;
+extern DMA_HandleTypeDef hdma_usart2_tx;
+
+extern volatile uint8_t rxLen;
+extern uint8_t rx_buffer[BUFFER_SIZE];
 
 /* USER CODE END Includes */
 
@@ -43,11 +45,25 @@ extern UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN Private defines */
 
+/******************************************************************************/
+#define USART2_BUFFER_SIZE 256
+/******************************************************************************/
+extern char snd2_buff[USART2_BUFFER_SIZE];
+extern char rcv2_buff[USART2_BUFFER_SIZE];
+extern unsigned long rcv2_cntr;
+extern unsigned long rcv2_flag;
+/******************************************************************************/
+void USART2_SendDMA(uint32_t len);
+/******************************************************************************/
+
 /* USER CODE END Private defines */
 
 void MX_USART2_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
+
+extern void (*OnRecvEnd)(uint8_t *data, uint16_t len);
+void Uart_SetRxCpltCallBack(void(*xerc)(uint8_t *, uint16_t));
 
 /* USER CODE END Prototypes */
 

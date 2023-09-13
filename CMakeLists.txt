@@ -56,19 +56,22 @@ include_directories(
         Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
         Drivers/CMSIS/Device/ST/STM32F4xx/Include
         Drivers/CMSIS/Include
-        UserApp/
-        SimpleFOC
-        Hardware
         Platform/Utils
         Platform/Print
         Platform/Signal
-        Platform/Sensor
+        Platform/Sensor/Encoder
+        Platform/I2C
+        Platform/SPI
         Ctrl/Motor
         Ctrl/Sensor
         Ctrl/Sensor/CurrentSense
         Ctrl/Sensor/Encoder
         Ctrl/Signal
         Ctrl/Utils
+        Ctrl/
+        Ctrl/Sensor/Encoder/Instances
+        UserApp
+        Ctrl/Sensor/CurrentSense/Instance
 )
 add_definitions(-DUSE_HAL_DRIVER -D__MICROLIB -DSTM32F4 -DSTM32F4xx -DSTM32F405xx)
 
@@ -79,9 +82,7 @@ file(GLOB_RECURSE SOURCES
         "Ctrl/*.*"
         "Platform/*.*"
         "UserApp/*.*"
-        "SimpleFOC/*.*"
         "Hardware/*.*"
-        "Platform/*.*"
         )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F405RGTx_FLASH.ld)

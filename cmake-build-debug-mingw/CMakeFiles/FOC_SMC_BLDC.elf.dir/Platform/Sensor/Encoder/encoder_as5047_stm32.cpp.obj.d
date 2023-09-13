@@ -1,7 +1,7 @@
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj: \
  D:\FreeRTOS\FOC_SMC_BLDC\Platform\Sensor\Encoder\encoder_as5047_stm32.cpp \
  D:\FreeRTOS\FOC_SMC_BLDC\Platform\Sensor\Encoder\encoder_as5047_stm32.h \
- d:\freertos\foc_smc_bldc\ctrl\sensor\encoder\instances\encoder_as5047.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder\Instances/encoder_as5047.h \
  d:\freertos\foc_smc_bldc\ctrl\sensor\encoder\encoder_base.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cinttypes \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cstdint \

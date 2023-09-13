@@ -82,18 +82,19 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj: \
  d:\freertos\foc_smc_bldc\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h \
  d:\freertos\foc_smc_bldc\platform\utils\time_utils.h \
  d:\freertos\foc_smc_bldc\platform\sensor\encoder\encoder_as5047_stm32.h \
- d:\freertos\foc_smc_bldc\ctrl\sensor\encoder\instances\encoder_as5047.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder\Instances/encoder_as5047.h \
  d:\freertos\foc_smc_bldc\ctrl\sensor\encoder\encoder_base.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cinttypes \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cstdint \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\inttypes.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\xlocale.h \
  d:\freertos\foc_smc_bldc\ctrl\utils\foc_utils.h \
- d:\freertos\foc_smc_bldc\platform\utils\st_hardware.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/usart.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor/BLDCDriver.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\Sensor\Encoder/encoder_as5600_stm32.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder\Instances/encoder_as5600.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl/BLDCMotor.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor/FOCMotor.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense/CurrentSense.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor/BLDCDriver.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/foc_utils.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Platform\Print/print_base.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cstring \
@@ -175,4 +176,10 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj: \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/foc_utils.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/lowpass_filter.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder/encoder_base.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/adc.h
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\SPI/spi3_stm32.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\I2C/i2c_software_stm32.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Instance/InlineCurrentSense.h \
+ d:\freertos\foc_smc_bldc\ctrl\sensor\currentsense\currentsense.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils/st_hardware.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/adc.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/usart.h

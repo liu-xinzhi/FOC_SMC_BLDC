@@ -28,13 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 93,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 89,
+				"line" : 94,
 				"parent" : 0
 			},
 			{
@@ -47,6 +41,12 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 92,
 				"parent" : 0
 			},
 			{
@@ -76,7 +76,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 73,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
@@ -183,18 +183,6 @@
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/UserApp"
-				},
-				{
-					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"
-				},
-				{
-					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Hardware"
-				},
-				{
-					"backtrace" : 10,
 					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"
 				},
 				{
@@ -207,7 +195,15 @@
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor"
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/I2C"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/SPI"
 				},
 				{
 					"backtrace" : 10,
@@ -232,6 +228,22 @@
 				{
 					"backtrace" : 10,
 					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/UserApp"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance"
 				}
 			],
 			"language" : "C",
@@ -257,6 +269,7 @@
 				19,
 				20,
 				21,
+				100,
 				101,
 				102,
 				103,
@@ -277,11 +290,8 @@
 				118,
 				119,
 				120,
-				121,
-				122,
-				124,
-				135,
-				137
+				136,
+				138
 			]
 		},
 		{
@@ -378,18 +388,6 @@
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/UserApp"
-				},
-				{
-					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"
-				},
-				{
-					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Hardware"
-				},
-				{
-					"backtrace" : 10,
 					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"
 				},
 				{
@@ -402,7 +400,15 @@
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor"
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/I2C"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/SPI"
 				},
 				{
 					"backtrace" : 10,
@@ -427,6 +433,22 @@
 				{
 					"backtrace" : 10,
 					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/UserApp"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance"
 				}
 			],
 			"language" : "CXX",
@@ -445,21 +467,24 @@
 				27,
 				29,
 				31,
-				34,
-				36,
-				38,
-				40,
-				44,
-				46,
-				48,
-				126,
-				128,
-				130,
-				133,
-				139,
-				143,
+				33,
+				35,
+				37,
+				39,
+				43,
+				45,
+				47,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				134,
+				140,
 				144,
-				145
+				145,
+				146
 			]
 		},
 		{
@@ -561,18 +586,6 @@
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/UserApp"
-				},
-				{
-					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"
-				},
-				{
-					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Hardware"
-				},
-				{
-					"backtrace" : 10,
 					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"
 				},
 				{
@@ -585,7 +598,15 @@
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor"
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/I2C"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Platform/SPI"
 				},
 				{
 					"backtrace" : 10,
@@ -610,12 +631,28 @@
 				{
 					"backtrace" : 10,
 					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/UserApp"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				146
+				147
 			]
 		}
 	],
@@ -690,19 +727,19 @@
 				28,
 				30,
 				32,
-				33,
-				35,
-				37,
-				39,
+				34,
+				36,
+				38,
+				40,
 				41,
 				42,
-				43,
-				45,
-				47,
+				44,
+				46,
+				48,
 				49,
 				50,
 				51,
-				52,
+				53,
 				54,
 				55,
 				56,
@@ -723,7 +760,7 @@
 				71,
 				72,
 				73,
-				74,
+				75,
 				76,
 				77,
 				78,
@@ -747,19 +784,19 @@
 				96,
 				97,
 				98,
-				99,
-				123,
-				125,
-				127,
-				129,
-				131,
+				122,
+				124,
+				126,
+				128,
+				130,
 				132,
-				134,
-				136,
-				138,
-				140,
+				133,
+				135,
+				137,
+				139,
 				141,
-				142
+				142,
+				143
 			]
 		},
 		{
@@ -783,13 +820,14 @@
 				27,
 				29,
 				31,
-				34,
-				36,
-				38,
-				40,
-				44,
-				46,
-				48,
+				33,
+				35,
+				37,
+				39,
+				43,
+				45,
+				47,
+				100,
 				101,
 				102,
 				103,
@@ -811,29 +849,29 @@
 				119,
 				120,
 				121,
-				122,
-				124,
-				126,
-				128,
-				130,
-				133,
-				135,
-				137,
-				139,
-				143,
+				123,
+				125,
+				127,
+				129,
+				131,
+				134,
+				136,
+				138,
+				140,
 				144,
-				145
+				145,
+				146
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				53,
-				75,
-				100,
-				146,
-				147
+				52,
+				74,
+				99,
+				147,
+				148
 			]
 		}
 	],
@@ -1013,28 +1051,23 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "Ctrl/Sensor/CurrentSense/Sensor.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Ctrl/Sensor/CurrentSense/Sensor.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Ctrl/Sensor/CurrentSense/hardware_api.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 1,
 			"path" : "Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"path" : "Ctrl/Sensor/Encoder/Instances/encoder_as5047.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Ctrl/Sensor/Encoder/Instances/encoder_as5600.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1496,24 +1529,13 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Hardware/i2c_software.c",
+			"compileGroupIndex" : 1,
+			"path" : "Platform/I2C/i2c_software_stm32.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Hardware/i2c_software.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Hardware/spi3.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Hardware/spi3.h",
+			"path" : "Platform/I2C/i2c_software_stm32.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1530,12 +1552,34 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
+			"path" : "Platform/SPI/spi3_stm32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Platform/SPI/spi3_stm32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
 			"path" : "Platform/Sensor/Encoder/encoder_as5047_stm32.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"path" : "Platform/Sensor/Encoder/encoder_as5047_stm32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Platform/Sensor/Encoder/encoder_as5600_stm32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Platform/Sensor/Encoder/encoder_as5600_stm32.h",
 			"sourceGroupIndex" : 0
 		},
 		{

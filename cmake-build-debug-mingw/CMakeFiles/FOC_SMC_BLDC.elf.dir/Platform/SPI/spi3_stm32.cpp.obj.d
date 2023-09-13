@@ -1,5 +1,6 @@
-CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj: \
- D:\FreeRTOS\FOC_SMC_BLDC\Hardware\spi3.c \
+CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/SPI/spi3_stm32.cpp.obj: \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\SPI\spi3_stm32.cpp \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\SPI\spi3_stm32.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/spi.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/main.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \

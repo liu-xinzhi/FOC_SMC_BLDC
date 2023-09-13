@@ -1,14 +1,11 @@
 CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj: \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.cpp \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Instance\InlineCurrentSense.h \
+ d:\freertos\foc_smc_bldc\ctrl\sensor\currentsense\currentsense.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor/BLDCDriver.h \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Utils/foc_utils.h \
  d:\freertos\foc_smc_bldc\platform\utils\time_utils.h \
  c:\progra~2\gnutoo~1\92019-~1\lib\gcc\arm-none-eabi\9.2.1\include\stdint-gcc.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Platform\Utils/time_utils.h \
- d:\freertos\foc_smc_bldc\ctrl\sensor\currentsense\currentsense.h \
- D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Motor/BLDCDriver.h \
- d:\freertos\foc_smc_bldc\ctrl\sensor\currentsense\hardware_api.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\math.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cmath \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7-m\nofp\bits\c++config.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7-m\nofp\bits\os_defines.h \
@@ -63,4 +60,20 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentS
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\modified_bessel_func.tcc \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\poly_hermite.tcc \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\poly_laguerre.tcc \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\riemann_zeta.tcc
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\tr1\riemann_zeta.tcc \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cstdio \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\stdio.h \
+ c:\progra~2\gnutoo~1\92019-~1\lib\gcc\arm-none-eabi\9.2.1\include\stdarg.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\types.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_stdint.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\endian.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\_endian.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\select.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_sigset.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_timeval.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\timespec.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_timespec.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\_pthreadtypes.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\sched.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\types.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\stdio.h

@@ -38,6 +38,7 @@ typedef struct
     float d;
     float q;
 }DQCurrent_s;
+
 // phase current structure
 typedef struct
 {
@@ -45,6 +46,7 @@ typedef struct
     float b;
     float c;
 }PhaseCurrent_s;
+
 // dq voltage structs
 typedef struct
 {

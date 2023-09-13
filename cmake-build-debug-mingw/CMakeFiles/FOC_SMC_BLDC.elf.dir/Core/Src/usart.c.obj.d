@@ -67,7 +67,11 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.obj: \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\sched.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\types.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\stdio.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\string.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\xlocale.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\strings.h \
- c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\string.h
+ D:\FreeRTOS\FOC_SMC_BLDC\UserApp/common_inc.h \
+ c:\progra~2\gnutoo~1\92019-~1\lib\gcc\arm-none-eabi\9.2.1\include\stdint-gcc.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Core\Inc/tim.h \
+ d:\freertos\foc_smc_bldc\platform\utils\retarget.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\sys\stat.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\time.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\machine\time.h \
+ c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\xlocale.h

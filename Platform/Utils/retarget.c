@@ -1,6 +1,6 @@
 #include <errno.h>
 #include <sys/time.h>
-#include "Platform/Utils/retarget.h"
+#include "retarget.h"
 #include "usart.h"
 
 #if !defined(OS_USE_SEMIHOSTING)

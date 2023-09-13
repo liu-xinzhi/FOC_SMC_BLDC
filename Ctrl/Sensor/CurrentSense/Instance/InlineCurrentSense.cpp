@@ -1,5 +1,7 @@
 #include "InlineCurrentSense.h"
-#include "math.h"
+#include <cmath>
+#include <cstdio>
+
 
 // InlineCurrentSensor constructor
 //  - shunt_resistor  - shunt resistor value
@@ -25,8 +27,6 @@ InlineCurrentSense::InlineCurrentSense(float _shunt_resistor, float _gain, int _
 // Inline sensor init function
 void InlineCurrentSense::init()
 {
-    // configure ADC variables
-    _configureADC(pinA, pinB, pinC);
     // calibrate zero offsets
     calibrateOffsets();
 }
@@ -43,24 +43,27 @@ void InlineCurrentSense::calibrateOffsets()
     // read the adc voltage 1000 times ( arbitrary number )
     for (int i = 0; i < calibration_rounds; i++)
     {
-        offset_ia += _readADCVoltage(pinA);
-        offset_ib += _readADCVoltage(pinB);
-        if (_isset(pinC)) offset_ic += _readADCVoltage(pinC);
+        if(_isset(pinA)) offset_ia += phA;
+        if(_isset(pinB)) offset_ib += phB;
+        if(_isset(pinC)) offset_ic += phC;
         _delay(1);
     }
     // calculate the mean offsets
-    offset_ia = offset_ia / calibration_rounds;
-    offset_ib = offset_ib / calibration_rounds;
-    if (_isset(pinC)) offset_ic = offset_ic / calibration_rounds;
+    if(_isset(pinA)) offset_ia = offset_ia / calibration_rounds;
+    if(_isset(pinB)) offset_ib = offset_ib / calibration_rounds;
+    if(_isset(pinC)) offset_ic = offset_ic / calibration_rounds;
+
+    printf("offset_ia:%.4f,offset_ib:%.4f,offset_ic:%.4f.\r\n",offset_ia,offset_ib,offset_ic);
 }
 
 // read all three phase currents (if possible 2 or 3)
 PhaseCurrent_s InlineCurrentSense::getPhaseCurrents()
 {
     PhaseCurrent_s current;
-    current.a = (_readADCVoltage(pinA) - offset_ia) * gain_a;// amps
-    current.b = (_readADCVoltage(pinB) - offset_ib) * gain_b;// amps
-    current.c = (!_isset(pinC)) ? 0 : (_readADCVoltage(pinC) - offset_ic) * gain_c; // amps
+    current.a = (!_isset(pinA)) ? 0 : (phA - offset_ia)*gain_a; // amps
+    current.b = (!_isset(pinB)) ? 0 : (phB - offset_ib)*gain_b; // amps
+    current.c = (!_isset(pinC)) ? 0 : (phC - offset_ic)*gain_c; // amps
+
     return current;
 }
 

@@ -35,19 +35,22 @@
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/UserApp"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Hardware"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Signal"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/I2C"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/SPI"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Motor"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/UserApp"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -80,19 +83,22 @@
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/CMSIS/Include"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/UserApp"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/SimpleFOC"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Hardware"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Utils"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Signal"/>
-					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/I2C"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Platform/SPI"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Motor"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Signal"/>
 					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Utils"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/UserApp"/>
+					<Add directory="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -221,19 +227,16 @@
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Sensor.cpp">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Sensor.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/hardware_api.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances/encoder_as5047.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/Instances/encoder_as5600.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/Encoder/encoder_base.cpp">
@@ -494,16 +497,10 @@
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/i2c_software.c">
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/I2C/i2c_software_stm32.cpp">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/i2c_software.h">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/spi3.c">
-			<Option target="FOC_SMC_BLDC.elf"/>
-		</Unit>
-		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Hardware/spi3.h">
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/I2C/i2c_software_stm32.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print/print_base.cpp">
@@ -512,10 +509,22 @@
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Print/print_base.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/SPI/spi3_stm32.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/SPI/spi3_stm32.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder/encoder_as5047_stm32.h">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder/encoder_as5600_stm32.cpp">
+			<Option target="FOC_SMC_BLDC.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Sensor/Encoder/encoder_as5600_stm32.h">
 			<Option target="FOC_SMC_BLDC.elf"/>
 		</Unit>
 		<Unit filename="D:/FreeRTOS/FOC_SMC_BLDC/Platform/Signal/button_stm32.cpp">

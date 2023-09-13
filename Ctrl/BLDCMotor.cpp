@@ -1,6 +1,9 @@
 #include "BLDCMotor.h"
 #include "math.h"
 
+
+extern BLDCMotor M0, M1;
+
 // BLDCMotor( int pp , float R)
 // - pp            - pole pair number
 // - R             - motor phase resistance
@@ -27,7 +30,8 @@ void BLDCMotor::linkDriver(BLDCDriver *_driver)
 // init hardware pins
 void BLDCMotor::init()
 {
-    if (monitor_port) monitor_port->println(F("MOT: Init"));
+    if (monitor_port)
+        monitor_port->println(F("MOT: Init"));
 
     // if no current sensing and the user has set the phase resistance of the motor use current limit to calculate the voltage limit
     if (!current_sense && _isset(phase_resistance))
@@ -37,10 +41,14 @@ void BLDCMotor::init()
         // use it if it is less then voltage_limit set by the user
         voltage_limit = new_voltage_limit < voltage_limit ? new_voltage_limit : voltage_limit;
     }
+
     // sanity check for the voltage limit configuration
-    if (voltage_limit > driver->voltage_limit) voltage_limit = driver->voltage_limit;
+    if (voltage_limit > driver->voltage_limit)
+        voltage_limit = driver->voltage_limit;
+
     // constrain voltage for sensor alignment
-    if (voltage_sensor_align > voltage_limit) voltage_sensor_align = voltage_limit;
+    if (voltage_sensor_align > voltage_limit)
+        voltage_sensor_align = voltage_limit;
 
     // update the controller limits
     if (current_sense)
@@ -50,10 +58,12 @@ void BLDCMotor::init()
         PID_current_d.limit = voltage_limit;
         // velocity control loop controls current
         PID_velocity.limit = current_limit;
-    } else if (!current_sense && _isset(phase_resistance))
+    }
+    else if (!current_sense && _isset(phase_resistance))
     {
         PID_velocity.limit = current_limit;
-    } else
+    }
+    else
     {
         PID_velocity.limit = voltage_limit;
     }
@@ -61,7 +71,8 @@ void BLDCMotor::init()
 
     _delay(500);
     // enable motor
-    if (monitor_port) monitor_port->println(F("MOT: Enable driver."));
+    if (monitor_port)
+        monitor_port->println(F("MOT: Enable driver."));
     enable();
     _delay(500);
 }
@@ -114,7 +125,9 @@ int BLDCMotor::initFOC(float zero_electric_offset, Direction _sensor_direction)
         exit_flag *= alignSensor();
         // added the shaft_angle update
         shaft_angle = sensor->GetAngle();
-    } else if (monitor_port) monitor_port->println(F("MOT: No sensor."));
+    }
+    else if (monitor_port)
+        monitor_port->println(F("MOT: No sensor."));
 
     // aligning the current sensor - can be skipped
     // checks if driver phases are the same as current sense phases
@@ -123,15 +136,20 @@ int BLDCMotor::initFOC(float zero_electric_offset, Direction _sensor_direction)
     if (exit_flag)
     {
         if (current_sense) exit_flag *= alignCurrentSense();
-        else if (monitor_port) monitor_port->println(F("MOT: No current sense."));
+        else if (monitor_port)
+            monitor_port->println(F("MOT: No current sense."));
     }
 
     if (exit_flag)
     {
-        if (monitor_port) monitor_port->println(F("MOT: Ready."));
-    } else
+        if (monitor_port)
+            monitor_port->println(F("MOT: Ready."));
+    }
+
+    else
     {
-        if (monitor_port) monitor_port->println(F("MOT: Init FOC failed."));
+        if (monitor_port)
+            monitor_port->println(F("MOT: Init FOC failed."));
         disable();
     }
 
@@ -166,7 +184,8 @@ int BLDCMotor::alignCurrentSense()
 int BLDCMotor::alignSensor()
 {
     int exit_flag = 1; //success
-    if (monitor_port) monitor_port->println(F("MOT: Align sensor."));
+    if (monitor_port)
+        monitor_port->println(F("MOT: Align sensor."));
 
     // if unknown natural direction
     if (!_isset(sensor_direction))
@@ -246,8 +265,8 @@ int BLDCMotor::alignSensor()
 // - to the index
 int BLDCMotor::absoluteZeroSearch()
 {
-
-    if (monitor_port) monitor_port->println(F("MOT: Index search..."));
+    if (monitor_port)
+        monitor_port->println(F("MOT: Index search..."));
     // search the absolute zero with small velocity
     float limit_vel = velocity_limit;
     float limit_volt = voltage_limit;
@@ -264,8 +283,10 @@ int BLDCMotor::absoluteZeroSearch()
     // disable motor
     setPhaseVoltage(0, 0, 0);
     // reinit the limits
+
     velocity_limit = limit_vel;
     voltage_limit = limit_volt;
+
     // check if the zero found
     if (monitor_port)
     {
@@ -280,7 +301,8 @@ int BLDCMotor::absoluteZeroSearch()
 void BLDCMotor::loopFOC()
 {
     // if open-loop do nothing
-    if (controller == MotionControlType::angle_openloop || controller == MotionControlType::velocity_openloop) return;
+    if (controller == MotionControlType::angle_openloop || controller == MotionControlType::velocity_openloop)
+        return;
     // shaft angle
     shaft_angle = shaftAngle(); // read value even if motor is disabled to keep the monitoring updated
 
@@ -691,3 +713,105 @@ float BLDCMotor::angleOpenloop(float target_angle)
 
     return Uq;
 }
+
+// 初始化三种SPI接口的编码器的参数, 初始化I2C接口或者SPI接口
+void BLDCMotor::MagneticSensor_Init()
+{
+    if(id == 0) {
+
+#if M0_AS5600
+        I2C_Init_(0);                  //AS5600
+        M0.cpr = AS5600_CPR;
+        printf("M0_AS5600\r\n");
+#elif M0_AS5047P
+        SPI3_Init_(0,SPI_CPOL_Low);    //AS5047P
+        M0.cpr = AS5047P_CPR;
+        printf("M0_AS5047P\r\n");
+#elif M0_TLE5012B
+        SPI3_Init_(0,SPI_CPOL_Low);    //TLE5012B
+        M0.cpr = TLE5012B_CPR;
+        printf("M0_TLE5012B\r\n");
+#elif M0_MA730
+        SPI3_Init_(0,SPI_CPOL_High);   //MA730
+        M0.cpr = MA730_CPR;
+        printf("M0_MA730\r\n");
+#elif M0_MT6701
+        SPI3_Init_(0,SPI_CPOL_Low);    //MT6701
+        M0.cpr = MT6701_CPR;
+        printf("M0_MT6701\r\n");
+#elif M0_ABZ
+        TIM3_Encoder_Init();           //ABZ
+        //EXTI_Encoder_Init(0);        //Z信号中断
+        M0.cpr = M0_ABZ_CPR;
+        printf("M0_ABZ\r\n");
+#endif
+    }
+    else if(id == 1) {
+#if M1_AS5600
+        I2C_Init_(1);                  //AS5600
+        M1.cpr = AS5600_CPR;
+        printf("M1_AS5600\r\n");
+#elif M1_AS5047P
+        SPI3_Init_();    //AS5047P
+        M1.cpr = AS5047P_CPR;
+        printf("M1_AS5047P\r\n");
+#elif M1_TLE5012B
+        SPI3_Init_(1,SPI_CPOL_Low);    //TLE5012B
+        M1.cpr = TLE5012B_CPR;
+        printf("M1_TLE5012B\r\n");
+#elif M1_MA730
+        SPI3_Init_(1,SPI_CPOL_High);   //MA730
+        M1.cpr = MA730_CPR;
+        printf("M1_MA730\r\n");
+#elif M1_MT6701
+        SPI3_Init_(1,SPI_CPOL_Low);    //MT6701
+        M1.cpr = MT6701_CPR;
+        printf("M1_MT6701\r\n");
+#elif M1_ABZ
+        TIM4_Encoder_Init();           //ABZ
+        //EXTI_Encoder_Init(1);        //Z信号中断
+        M1.cpr = M1_ABZ_CPR;
+        printf("M1_ABZ\r\n");
+#endif
+    }
+}
+
+//uint16_t BLDCMotor::getRawCount(uint8_t x)  //获取编码器的原始值
+//{
+//    uint16_t val;
+//
+//    if(x==0)
+//    {
+//#if M0_AS5600
+//        val = ReadAS5600(0)&0x0FFF;
+//#elif M0_AS5047P
+//        val = ReadAS5047P(0)&0x3FFF;
+//#elif M0_TLE5012B
+//        val = ReadTLE5012B(0)&0x7FFF;
+//#elif M0_MA730
+//        val = ReadMA730(0);    //左对齐，低两位补0
+//#elif M0_MT6701
+//        val = ReadMT6701(0);   //左对齐，低两位补0
+//#elif M0_ABZ
+//        val = ReadABZ(0);
+//#endif
+//    }
+//    else
+//    {
+//#if M1_AS5600
+//        val = ReadAS5600(1)&0x0FFF;
+//#elif M1_AS5047P
+//        val = ReadAS5047P(1)&0x3FFF;
+//#elif M1_TLE5012B
+//        val = ReadTLE5012B(1)&0x7FFF;
+//#elif M1_MA730
+//        val = ReadMA730(1);    //左对齐，低两位补0
+//#elif M1_MT6701
+//        val = ReadMT6701(1);   //左对齐，低两位补0
+//#elif M1_ABZ
+//        val = ReadABZ(1);
+//#endif
+//    }
+//
+//    return val;
+//}

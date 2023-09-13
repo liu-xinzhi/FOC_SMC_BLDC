@@ -60,10 +60,29 @@ float EncoderBase::GetAngle()
     return (float) full_rotations * _2PI + angle_prev;
 }
 
+float EncoderBase::GetPreAngle()
+{
+    return (float) angle_prev;
+}
+
+void EncoderBase::setPreAngle(float new_value)
+{
+    angle_prev = new_value;
+}
+
 
 int32_t EncoderBase::getFullRotations()
 {
     return full_rotations;
+}
+
+int32_t EncoderBase::getFullRotationOffset()
+{
+    return full_rotations_offset;
+}
+
+void EncoderBase::setFullRotationOffset(int32_t new_value) {
+    full_rotations_offset=new_value;
 }
 
 /**

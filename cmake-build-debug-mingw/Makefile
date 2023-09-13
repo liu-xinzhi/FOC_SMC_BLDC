@@ -512,30 +512,6 @@ Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s
 .PHONY : Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.s
 
-Ctrl/Sensor/CurrentSense/Sensor.obj: Ctrl/Sensor/CurrentSense/Sensor.cpp.obj
-.PHONY : Ctrl/Sensor/CurrentSense/Sensor.obj
-
-# target to build an object file
-Ctrl/Sensor/CurrentSense/Sensor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj
-.PHONY : Ctrl/Sensor/CurrentSense/Sensor.cpp.obj
-
-Ctrl/Sensor/CurrentSense/Sensor.i: Ctrl/Sensor/CurrentSense/Sensor.cpp.i
-.PHONY : Ctrl/Sensor/CurrentSense/Sensor.i
-
-# target to preprocess a source file
-Ctrl/Sensor/CurrentSense/Sensor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.i
-.PHONY : Ctrl/Sensor/CurrentSense/Sensor.cpp.i
-
-Ctrl/Sensor/CurrentSense/Sensor.s: Ctrl/Sensor/CurrentSense/Sensor.cpp.s
-.PHONY : Ctrl/Sensor/CurrentSense/Sensor.s
-
-# target to generate assembly for a file
-Ctrl/Sensor/CurrentSense/Sensor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.s
-.PHONY : Ctrl/Sensor/CurrentSense/Sensor.cpp.s
-
 Ctrl/Sensor/Encoder/Instances/encoder_as5047.obj: Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj
 .PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5047.obj
 
@@ -559,6 +535,30 @@ Ctrl/Sensor/Encoder/Instances/encoder_as5047.s: Ctrl/Sensor/Encoder/Instances/en
 Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.s
 .PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.s
+
+Ctrl/Sensor/Encoder/Instances/encoder_as5600.obj: Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.obj
+.PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5600.obj
+
+# target to build an object file
+Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.obj
+.PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.obj
+
+Ctrl/Sensor/Encoder/Instances/encoder_as5600.i: Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.i
+.PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5600.i
+
+# target to preprocess a source file
+Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.i
+.PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.i
+
+Ctrl/Sensor/Encoder/Instances/encoder_as5600.s: Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.s
+.PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5600.s
+
+# target to generate assembly for a file
+Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.s
+.PHONY : Ctrl/Sensor/Encoder/Instances/encoder_as5600.cpp.s
 
 Ctrl/Sensor/Encoder/encoder_base.obj: Ctrl/Sensor/Encoder/encoder_base.cpp.obj
 .PHONY : Ctrl/Sensor/Encoder/encoder_base.obj
@@ -1208,53 +1208,29 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
 
-Hardware/i2c_software.obj: Hardware/i2c_software.c.obj
-.PHONY : Hardware/i2c_software.obj
+Platform/I2C/i2c_software_stm32.obj: Platform/I2C/i2c_software_stm32.cpp.obj
+.PHONY : Platform/I2C/i2c_software_stm32.obj
 
 # target to build an object file
-Hardware/i2c_software.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj
-.PHONY : Hardware/i2c_software.c.obj
+Platform/I2C/i2c_software_stm32.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/I2C/i2c_software_stm32.cpp.obj
+.PHONY : Platform/I2C/i2c_software_stm32.cpp.obj
 
-Hardware/i2c_software.i: Hardware/i2c_software.c.i
-.PHONY : Hardware/i2c_software.i
-
-# target to preprocess a source file
-Hardware/i2c_software.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.i
-.PHONY : Hardware/i2c_software.c.i
-
-Hardware/i2c_software.s: Hardware/i2c_software.c.s
-.PHONY : Hardware/i2c_software.s
-
-# target to generate assembly for a file
-Hardware/i2c_software.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.s
-.PHONY : Hardware/i2c_software.c.s
-
-Hardware/spi3.obj: Hardware/spi3.c.obj
-.PHONY : Hardware/spi3.obj
-
-# target to build an object file
-Hardware/spi3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj
-.PHONY : Hardware/spi3.c.obj
-
-Hardware/spi3.i: Hardware/spi3.c.i
-.PHONY : Hardware/spi3.i
+Platform/I2C/i2c_software_stm32.i: Platform/I2C/i2c_software_stm32.cpp.i
+.PHONY : Platform/I2C/i2c_software_stm32.i
 
 # target to preprocess a source file
-Hardware/spi3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.i
-.PHONY : Hardware/spi3.c.i
+Platform/I2C/i2c_software_stm32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/I2C/i2c_software_stm32.cpp.i
+.PHONY : Platform/I2C/i2c_software_stm32.cpp.i
 
-Hardware/spi3.s: Hardware/spi3.c.s
-.PHONY : Hardware/spi3.s
+Platform/I2C/i2c_software_stm32.s: Platform/I2C/i2c_software_stm32.cpp.s
+.PHONY : Platform/I2C/i2c_software_stm32.s
 
 # target to generate assembly for a file
-Hardware/spi3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.s
-.PHONY : Hardware/spi3.c.s
+Platform/I2C/i2c_software_stm32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/I2C/i2c_software_stm32.cpp.s
+.PHONY : Platform/I2C/i2c_software_stm32.cpp.s
 
 Platform/Print/print_base.obj: Platform/Print/print_base.cpp.obj
 .PHONY : Platform/Print/print_base.obj
@@ -1280,6 +1256,30 @@ Platform/Print/print_base.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Print/print_base.cpp.s
 .PHONY : Platform/Print/print_base.cpp.s
 
+Platform/SPI/spi3_stm32.obj: Platform/SPI/spi3_stm32.cpp.obj
+.PHONY : Platform/SPI/spi3_stm32.obj
+
+# target to build an object file
+Platform/SPI/spi3_stm32.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/SPI/spi3_stm32.cpp.obj
+.PHONY : Platform/SPI/spi3_stm32.cpp.obj
+
+Platform/SPI/spi3_stm32.i: Platform/SPI/spi3_stm32.cpp.i
+.PHONY : Platform/SPI/spi3_stm32.i
+
+# target to preprocess a source file
+Platform/SPI/spi3_stm32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/SPI/spi3_stm32.cpp.i
+.PHONY : Platform/SPI/spi3_stm32.cpp.i
+
+Platform/SPI/spi3_stm32.s: Platform/SPI/spi3_stm32.cpp.s
+.PHONY : Platform/SPI/spi3_stm32.s
+
+# target to generate assembly for a file
+Platform/SPI/spi3_stm32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/SPI/spi3_stm32.cpp.s
+.PHONY : Platform/SPI/spi3_stm32.cpp.s
+
 Platform/Sensor/Encoder/encoder_as5047_stm32.obj: Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj
 .PHONY : Platform/Sensor/Encoder/encoder_as5047_stm32.obj
 
@@ -1303,6 +1303,30 @@ Platform/Sensor/Encoder/encoder_as5047_stm32.s: Platform/Sensor/Encoder/encoder_
 Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.s
 .PHONY : Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.s
+
+Platform/Sensor/Encoder/encoder_as5600_stm32.obj: Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.obj
+.PHONY : Platform/Sensor/Encoder/encoder_as5600_stm32.obj
+
+# target to build an object file
+Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.obj
+.PHONY : Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.obj
+
+Platform/Sensor/Encoder/encoder_as5600_stm32.i: Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.i
+.PHONY : Platform/Sensor/Encoder/encoder_as5600_stm32.i
+
+# target to preprocess a source file
+Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.i
+.PHONY : Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.i
+
+Platform/Sensor/Encoder/encoder_as5600_stm32.s: Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.s
+.PHONY : Platform/Sensor/Encoder/encoder_as5600_stm32.s
+
+# target to generate assembly for a file
+Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC_SMC_BLDC.elf.dir\build.make CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.s
+.PHONY : Platform/Sensor/Encoder/encoder_as5600_stm32.cpp.s
 
 Platform/Signal/button_stm32.obj: Platform/Signal/button_stm32.cpp.obj
 .PHONY : Platform/Signal/button_stm32.obj
@@ -1561,12 +1585,12 @@ help:
 	@echo ... Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.obj
 	@echo ... Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.i
 	@echo ... Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.s
-	@echo ... Ctrl/Sensor/CurrentSense/Sensor.obj
-	@echo ... Ctrl/Sensor/CurrentSense/Sensor.i
-	@echo ... Ctrl/Sensor/CurrentSense/Sensor.s
 	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5047.obj
 	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5047.i
 	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5047.s
+	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5600.obj
+	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5600.i
+	@echo ... Ctrl/Sensor/Encoder/Instances/encoder_as5600.s
 	@echo ... Ctrl/Sensor/Encoder/encoder_base.obj
 	@echo ... Ctrl/Sensor/Encoder/encoder_base.i
 	@echo ... Ctrl/Sensor/Encoder/encoder_base.s
@@ -1648,18 +1672,21 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.s
-	@echo ... Hardware/i2c_software.obj
-	@echo ... Hardware/i2c_software.i
-	@echo ... Hardware/i2c_software.s
-	@echo ... Hardware/spi3.obj
-	@echo ... Hardware/spi3.i
-	@echo ... Hardware/spi3.s
+	@echo ... Platform/I2C/i2c_software_stm32.obj
+	@echo ... Platform/I2C/i2c_software_stm32.i
+	@echo ... Platform/I2C/i2c_software_stm32.s
 	@echo ... Platform/Print/print_base.obj
 	@echo ... Platform/Print/print_base.i
 	@echo ... Platform/Print/print_base.s
+	@echo ... Platform/SPI/spi3_stm32.obj
+	@echo ... Platform/SPI/spi3_stm32.i
+	@echo ... Platform/SPI/spi3_stm32.s
 	@echo ... Platform/Sensor/Encoder/encoder_as5047_stm32.obj
 	@echo ... Platform/Sensor/Encoder/encoder_as5047_stm32.i
 	@echo ... Platform/Sensor/Encoder/encoder_as5047_stm32.s
+	@echo ... Platform/Sensor/Encoder/encoder_as5600_stm32.obj
+	@echo ... Platform/Sensor/Encoder/encoder_as5600_stm32.i
+	@echo ... Platform/Sensor/Encoder/encoder_as5600_stm32.s
 	@echo ... Platform/Signal/button_stm32.obj
 	@echo ... Platform/Signal/button_stm32.i
 	@echo ... Platform/Signal/button_stm32.s

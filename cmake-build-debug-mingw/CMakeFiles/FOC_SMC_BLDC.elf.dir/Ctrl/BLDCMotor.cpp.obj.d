@@ -128,7 +128,8 @@ CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj: \
  D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\Encoder/encoder_base.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cinttypes \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\inttypes.h \
- d:\freertos\foc_smc_bldc\ctrl\sensor\currentsense\sensor.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\SPI/spi3_stm32.h \
+ D:\FreeRTOS\FOC_SMC_BLDC\Platform\I2C/i2c_software_stm32.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\math.h \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\c++\9.2.1\cmath \
  c:\progra~2\gnutoo~1\92019-~1\arm-none-eabi\include\math.h \

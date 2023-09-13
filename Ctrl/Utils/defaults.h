@@ -27,6 +27,7 @@
 #define DEF_PID_CURR_LIMIT (DEF_POWER_SUPPLY) //!< default PID controller voltage limit
 #define DEF_CURR_FILTER_Tf 0.005f //!< default currnet filter time constant
 #endif
+
 // default current limit values
 #define DEF_CURRENT_LIM 0.2f //!< 2Amps current limit by default
 

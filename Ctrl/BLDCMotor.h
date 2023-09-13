@@ -2,12 +2,8 @@
 #define BLDCMotor_h
 
 #include "FOCMotor.h"
-#include "Ctrl/Sensor/CurrentSense/Sensor.h"
-#include "BLDCDriver.h"
-#include "foc_utils.h"
-#include "time_utils.h"
-#include "defaults.h"
-#include "print_base.h"
+#include "spi3_stm32.h"
+#include "i2c_software_stm32.h"
 
 /**
  BLDC motor class
@@ -72,6 +68,13 @@ public:
     float Ua, Ub, Uc;//!< Current phase voltages Ua,Ub and Uc set to motor
     float Ualpha, Ubeta; //!< Phase voltages U alpha and U beta used for inverse Park and Clarke transform
 
+    uint8_t id;
+    char *name;
+    long cpr;
+
+    uint16_t getRawCount(uint8_t x);  //! 获取编码器的原始值
+
+    virtual void MagneticSensor_Init();
 
 private:
     // FOC methods 

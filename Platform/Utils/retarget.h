@@ -1,7 +1,7 @@
 #ifndef _RETARGET_H__
 #define _RETARGET_H__
 
-#include "stm32f405xx.h"
+#include "stm32f4xx.h"
 #include "usart.h"
 #include <sys/stat.h>
 #include <stdio.h>

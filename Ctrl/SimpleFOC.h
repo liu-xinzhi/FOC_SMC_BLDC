@@ -17,7 +17,7 @@
  *  - Modular:
  *     - Supports as many sensors , BLDC motors and driver boards as possible
  *     - Supports as many application requirements as possible
- *  - Plug & play: Arduino SimpleFOC shield
+ *  - Plug & play: Arduino SimpleFOC shield`
  * 
  * @section dependencies Supported Hardware
  *  - Motors 
@@ -97,6 +97,11 @@ void loop() {
 #define SIMPLEFOC_H
 
 #include "BLDCMotor.h"
-#include "Encoder.h"
+#include "usart.h"
+#include "BLDCDriver.h"
+#include "FOCMotor.h"
+#include "encoder_base.h"
+#include "encoder_as5047_stm32.h"
+#include "InlineCurrentSense.h"
 
 #endif

@@ -1,10 +1,7 @@
 #ifndef INLINE_CS_LIB_H
 #define INLINE_CS_LIB_H
 
-#include "foc_utils.h"
-#include "time_utils.h"
 #include "Ctrl/Sensor/CurrentSense/CurrentSense.h"
-#include "Ctrl/Sensor/CurrentSense/hardware_api.h"
 
 
 class InlineCurrentSense : public CurrentSense
@@ -36,6 +33,8 @@ public:
     float gain_b; //!< phase B gain
     float gain_c; //!< phase C gain
 
+    float phA,phB,phC;
+
 private:
 
     // hardware variables
@@ -56,6 +55,8 @@ private:
     double offset_ia; //!< zero current A voltage value (center of the adc reading)
     double offset_ib; //!< zero current B voltage value (center of the adc reading)
     double offset_ic; //!< zero current C voltage value (center of the adc reading)
+
+
 
 };
 

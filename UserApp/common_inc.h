@@ -19,6 +19,9 @@ void OnCanCmd(uint8_t _cmd, uint8_t* _data, uint32_t _len);
 #include "UserApp/configurations.h"
 #include "Platform/Utils/time_utils.h"
 #include "Platform/Sensor/Encoder/encoder_as5047_stm32.h"
+#include "encoder_as5600_stm32.h"
+#include "BLDCMotor.h"
+#include "InlineCurrentSense.h"
 
 #endif
 #endif

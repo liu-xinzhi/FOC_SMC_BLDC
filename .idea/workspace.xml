@@ -15,151 +15,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290a6bf1-33f0-41ca-9146-53f9776b2a5d" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/adc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/dma.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/BLDCMotor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/BLDCMotor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/BLDCMotor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/BLDCMotor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Motor/FOCMotor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Motor/FOCMotor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/CurrentSense.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/CurrentSense.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/Sensor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/Sensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/CurrentSense/hardware_api.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/Encoder/encoder_base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Sensor/Encoder/encoder_base.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ctrl/Sensor/Encoder/encoder_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Sensor/Encoder/encoder_base.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/i2c_software.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/i2c_software.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/spi3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/spi3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/SimpleFOC.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/SimpleFOC.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Utils/defaults.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Utils/defaults.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ctrl/Utils/foc_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ctrl/Utils/foc_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOC_SMC_BLDC.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/FOC_SMC_BLDC.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/i2c_software.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/i2c_software.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/spi3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/spi3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Sensor/Encoder/encoder_as5047_stm32.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Sensor/Encoder/encoder_as5047_stm32.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Utils/retarget.c" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Utils/retarget.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Utils/retarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Utils/retarget.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/Utils/time_utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Utils/time_utils.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/Utils/time_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Utils/time_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/BLDCMotor.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/BLDCMotor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/CurrentSense.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/CurrentSense.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/Encoder.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/Encoder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/FOCMotor.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/FOCMotor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/MagneticSensor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/MagneticSensorI2C.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/MagneticSensorSPI.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/Sensor.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/Sensor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/lowpass_filter.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/lowpass_filter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/lowsideCurrentSense.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/lowsideCurrentSense.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/motor_base.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/motor_base.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/pid.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFOC/pid.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/MyProject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserApp/common_inc.h" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/common_inc.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserApp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/user.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cache-v2-b4c1d3cd4e52e374b5e9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cmakeFiles-v1-e9d0e3ddc9640744fd4a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-53e30a0dfe0da17c3128.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2023-09-03T08-43-16-0594.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-FOC_SMC_BLDC.elf-Debug-908ba18a12264d3ad2db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-6a11d21872c2512f9665.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2023-09-03T15-10-45-0783.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-FOC_SMC_BLDC.elf-78b0667ce094daa41cbf.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/adc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/adc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/adc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/can.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/can.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/dma.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/spi.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/spi.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/stm32f4xx_it.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/stm32f4xx_it.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Core/Src/usart.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/BLDCMotor.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Motor/FOCMotor.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/CurrentSense.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Instance/InlineCurrentSense.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/CurrentSense/Sensor.cpp.obj.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Sensor/Encoder/encoder_base.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/button_base.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Signal/io_signal_base.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/foc_utils.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/lowpass_filter.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Ctrl/Utils/pid.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/i2c_software.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Hardware/spi3.c.obj.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Signal/button_stm32.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/Memory/emulated_eeprom.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Sensor/Encoder/encoder_as5047_stm32.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/st_hardware.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/time_utils.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/BLDCMotor.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/CurrentSense.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Encoder.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/FOCMotor.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorI2C.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/MagneticSensorSPI.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/Sensor.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowpass_filter.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/lowsideCurrentSense.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/motor_base.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/SimpleFOC/pid.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/Platform/Utils/retarget.c.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/main.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_can.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/UserApp/protocols/interface_uart.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FOC_SMC_BLDC.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FOC_SMC_BLDC.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +144,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FreeRTOS/FOC_SMC_BLDC/Ctrl/Sensor/CurrentSense/Instance&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -205,12 +152,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense\Instance" />
+      <recent name="D:\FreeRTOS\FOC_SMC_BLDC\UserApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FreeRTOS\FOC_SMC_BLDC\Ctrl\Sensor\CurrentSense" />
+    </key>
+  </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD FOC_SMC_BLDC">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FOC_SMC_BLDC.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FOC_SMC_BLDC" TARGET_NAME="FOC_SMC_BLDC.elf" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="FOC_SMC_BLDC" RUN_TARGET_NAME="FOC_SMC_BLDC.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -248,7 +199,11 @@
       <workItem from="1693665984654" duration="5241000" />
       <workItem from="1693722109770" duration="9821000" />
       <workItem from="1693737516375" duration="12489000" />
-      <workItem from="1693752036251" duration="1793000" />
+      <workItem from="1693752036251" duration="4850000" />
+      <workItem from="1693804360794" duration="23708000" />
+      <workItem from="1693888134451" duration="10509000" />
+      <workItem from="1693915511873" duration="941000" />
+      <workItem from="1694592870500" duration="2000" />
     </task>
     <servers />
   </component>
@@ -265,16 +220,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Ctrl/Sensor/Encoder/Instances/encoder_as5047.cpp</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

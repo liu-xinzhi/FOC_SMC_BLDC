@@ -64,6 +64,8 @@ public:
      * @param angle_el - motor electrical angle
      */
     DQCurrent_s getFOCCurrents(float angle_el);
+
+    float phA,phB,phC;
 };
 
 #endif
